@@ -13,7 +13,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
+                <a href="#top"  onclick = $("#menu-close").click(); >竜巧社ネットウエア</a>
             </li>
             <li>
                 <a href="#top" onclick = $("#menu-close").click(); >Home</a>
@@ -36,8 +36,8 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1 class="font-type-1">RYUKOSHA NETWARE</h1>
-            <h3 class="font-type-1">「これからのIT時代に、システム技術者となる人材を世に送り出そう」</h3>
+            <h1 class="font-type-1">RYUKOSHA NETWARE Inc.</h1>
+            <h3 class="font-type-1">確かな信頼と力強いソリューションでビジネスを加速させます</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">MORE</a>
         </div>
@@ -48,8 +48,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <h2 class="font-type-1">「これからのIT時代に、システム技術者となる人材を世に送り出そう」</h2>
+                    <p class="lead font-type-1">どこまでも信頼出来る技術と柔軟性で世界を支えるソリューションを提供し続けます</p>
                 </div>
             </div>
             <!-- /.row -->
