@@ -10,6 +10,14 @@
   margin-bottom:0px;
 }
 
+.bg-color-1 {
+    background-color: #222;
+}
+
+.bg-color-2 {
+    background-color: #444;
+}
+
 /*================================================
 	WEB-FONT
 	IEでは動作保証ありません。

@@ -89,20 +89,22 @@
 				<h1 class="page-header font-type-1">
 					WHAT'S NEW
 				</h1>
-				<ul class="list-group">
-					<li class="list-group-item">
-						<h4>TEST TITLE</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-					</li>
-					<li class="list-group-item">
-						<h4>TEST TITLE</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-					</li>
-					<li class="list-group-item">
-						<h4>TEST TITLE</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-					</li>
-				</ul>
+				<div class="">
+					<ul class="list-group">
+						<li class="list-group-item">
+							<h4>TEST TITLE</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+						</li>
+						<li class="list-group-item">
+							<h4>TEST TITLE</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+						</li>
+						<li class="list-group-item">
+							<h4>TEST TITLE</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+						</li>
+					</ul>
+				</div>
 			</div>
 
 			<div class="col-md-12">
@@ -141,42 +143,44 @@
 
 		</div>
 	</div>
-	<div class="row well footer-well">
-		<div class="col-md-3">
-			<h6 class="page-header">Lorem ipsum</h6>
-			<ul>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			</ul>
-		</div>
-		<div class="col-md-3">
-			<h6 class="page-header">Lorem ipsum</h6>
-			<ul>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			</ul>
-		</div>
-		<div class="col-md-3">
-			<h6 class="page-header">Lorem ipsum</h6>
-			<ul>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			</ul>
-		</div>
-		<div class="col-md-3">
-			<h6 class="page-header">Lorem ipsum</h6>
-			<ul>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			    <li>Lorem ipsum dolor sit amet</li>
-			</ul>
+	<div class="well footer-well">
+		<div class="row row-10">
+			<div class="col-md-3">
+				<h6 class="page-header">Lorem ipsum</h6>
+				<ul>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h6 class="page-header">Lorem ipsum</h6>
+				<ul>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h6 class="page-header">Lorem ipsum</h6>
+				<ul>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h6 class="page-header">Lorem ipsum</h6>
+				<ul>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+					<li>Lorem ipsum dolor sit amet</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 
