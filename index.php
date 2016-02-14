@@ -6,7 +6,14 @@
 	<?php tmp_header_meta(); ?>
 </head>
 <body>
-	<h1 class="page-header"><span class="glyphicon glyphicon-menu-left"></span>HELLO 竜巧社ネットウエア</h1>
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand font-type-1" href="javascript:void(0);">RYUKOSHA NEWWARE</a>
+			</div>
+		</div>
+	</nav>
 
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -22,6 +29,7 @@
 				<div class="carousel-caption">
 					<h3>TEXTTEXT</h3>
 					<p>TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT</p>
+					<button type="button" class="btn btn-primary font-type-1">test button</button>
 				</div>
 			</div>
 			<div class="item">
@@ -29,6 +37,15 @@
 				<div class="carousel-caption">
 					<h3>TEXTTEXT</h3>
 					<p>TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT</p>
+					<button type="button" class="btn btn-primary font-type-1">test button</button>
+				</div>
+			</div>
+			<div class="item">
+				<img src="http://placehold.jp/1080x315.png" width="100%" alt="...">
+				<div class="carousel-caption">
+					<h3>TEXTTEXT</h3>
+					<p>TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT</p>
+					<button type="button" class="btn btn-primary font-type-1">test button</button>
 				</div>
 			</div>
 		</div>
