@@ -14,7 +14,7 @@
   /*src: url('../fonts/logotype.otf') format('opentype');*/
 }
 
-* {
+.font-type-1 {
   font-family: 'logotype' !important;
 }
 
