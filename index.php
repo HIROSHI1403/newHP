@@ -7,6 +7,8 @@
 </head>
 <body>
 
+	<!-- nav-bar -->
+
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -59,6 +61,48 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
+
+	<!-- base component -->
+
+		<div class="row row-10">
+
+			<div class="col-md-12">
+				<h1 class="page-header font-type-1">
+					MAIN
+				</h1>
+				<div class="container-fluid">
+
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<h1 class="page-header font-type-1">
+					WHAT'S NEW
+				</h1>
+				<div class="container-fluid">
+
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<h1 class="page-header font-type-1">
+					SOCIAL
+				</h1>
+				<div class="container-fluid">
+
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<h1 class="page-header font-type-1">
+					SITEMAP
+				</h1>
+				<div class="container-fluid">
+
+				</div>
+			</div>
+
+		</div>
 
 
 	<?php tmp_footer_js(); ?>
