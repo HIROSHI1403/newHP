@@ -9,13 +9,7 @@
 
 	<!-- nav-bar -->
 
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand font-type-1" href="javascript:void(0);">RYUKOSHA NEWWARE</a>
-			</div>
-		</div>
-	</nav>
+	<?php navbar() ?>
 
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -27,7 +21,7 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="http://placehold.jp/1080x315.png" width="100%" alt="...">
+				<img src="http://placehold.jp/1080x500.png" width="100%" alt="...">
 				<div class="carousel-caption">
 					<h3>TEXTTEXT</h3>
 					<p>TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT</p>
@@ -35,7 +29,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<img src="http://placehold.jp/1080x315.png" width="100%" alt="...">
+				<img src="http://placehold.jp/1080x500.png" width="100%" alt="...">
 				<div class="carousel-caption">
 					<h3>TEXTTEXT</h3>
 					<p>TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT</p>
@@ -43,7 +37,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<img src="http://placehold.jp/1080x315.png" width="100%" alt="...">
+				<img src="http://placehold.jp/1080x500.png" width="100%" alt="...">
 				<div class="carousel-caption">
 					<h3>TEXTTEXT</h3>
 					<p>TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT</p>
@@ -53,25 +47,41 @@
 		</div>
 		<!-- Controls -->
 		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="glyphicon glyphicon-chevron-left glyphicon-menu-left" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
 		</a>
 		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="glyphicon glyphicon-chevron-right glyphicon-menu-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
 
 	<!-- base component -->
 
+	<div class="container-fluid">
 		<div class="row row-10">
 
 			<div class="col-md-12">
 				<h1 class="page-header font-type-1">
 					MAIN
 				</h1>
-				<div class="container-fluid">
-
+				<div class="btn-group btn-group-justified">
+					<a href="javascript:void(0);" class="btn btn-primary btn-lg">
+						<i class="fa fa-star-o fa-3x fa-spin"></i><br>
+						Primary
+					</a>
+					<a href="javascript:void(0);" class="btn btn-primary btn-lg">
+						<i class="fa fa-star-o fa-3x fa-spin"></i><br>
+						Primary
+					</a>
+					<a href="javascript:void(0);" class="btn btn-primary btn-lg">
+						<i class="fa fa-star-o fa-3x fa-spin"></i><br>
+						Primary
+					</a>
+					<a href="javascript:void(0);" class="btn btn-primary btn-lg">
+						<i class="fa fa-star-o fa-3x fa-spin"></i><br>
+						Primary
+					</a>
 				</div>
 			</div>
 
@@ -79,17 +89,47 @@
 				<h1 class="page-header font-type-1">
 					WHAT'S NEW
 				</h1>
-				<div class="container-fluid">
-
-				</div>
+				<ul class="list-group">
+					<li class="list-group-item">
+						<h4>TEST TITLE</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+					</li>
+					<li class="list-group-item">
+						<h4>TEST TITLE</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+					</li>
+					<li class="list-group-item">
+						<h4>TEST TITLE</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+					</li>
+				</ul>
 			</div>
 
 			<div class="col-md-12">
 				<h1 class="page-header font-type-1">
 					SOCIAL
 				</h1>
-				<div class="container-fluid">
-
+				<div class="row row-10">
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title"><i class="fa fa-twitter-square"></i> Twitter</h3>
+							</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title"><i class="fa fa-facebook-official"></i> Facebook</h3>
+							</div>
+							<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -97,13 +137,48 @@
 				<h1 class="page-header font-type-1">
 					SITEMAP
 				</h1>
-				<div class="container-fluid">
-
-				</div>
 			</div>
 
 		</div>
-
+	</div>
+	<div class="row well footer-well">
+		<div class="col-md-3">
+			<h6 class="page-header">Lorem ipsum</h6>
+			<ul>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h6 class="page-header">Lorem ipsum</h6>
+			<ul>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h6 class="page-header">Lorem ipsum</h6>
+			<ul>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			</ul>
+		</div>
+		<div class="col-md-3">
+			<h6 class="page-header">Lorem ipsum</h6>
+			<ul>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			    <li>Lorem ipsum dolor sit amet</li>
+			</ul>
+		</div>
+	</div>
 
 	<?php tmp_footer_js(); ?>
 </body>
