@@ -36,10 +36,10 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1 class="font-type-1">RYUKOSHA NETWARE Inc.</h1>
-            <h3 class="font-type-1">確かな信頼と力強いソリューションでビジネスを加速させます</h3>
+            <h1 class="font-type-1 animated zoomInDown">RYUKOSHA NETWARE Inc.</h1>
+            <h3 class="font-type-1"><u>確かな信頼と力強いソリューションでビジネスを加速させます</u></h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">MORE</a>
+            <a href="#about" class="btn btn-dark btn-lg chaffle" data-lang="en"><i class="fa fa-arrow-down"></i> MORE</a>
         </div>
     </header>
 
@@ -48,8 +48,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="font-type-1">「これからのIT時代に、システム技術者となる人材を世に送り出そう」</h2>
-                    <p class="lead font-type-1">どこまでも信頼出来る技術と柔軟性で世界を支えるソリューションを提供し続けます</p>
+                    <h2 class="font-type-1" id="about1">「これからのIT時代に、システム技術者となる人材を世に送り出そう」</h2>
+                    <p class="lead font-type-1" id="about2">どこまでも信頼出来る技術と柔軟性で世界を支えるソリューションを提供し続けます</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -63,59 +63,60 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
-                    <hr class="small">
+                    <h2 class="font-type-1">ABOUT</h2>
+                    <hr class="medium">
+                    <p class="small font-type-1">竜巧社ネットウエアについて</p>
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 font-type-1" id="service1">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-building fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>会社案内</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>会社概要や組織図、経営理念について掲載しています。</p>
+                                <a href="#" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 font-type-1"  id="service2">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>事業案内</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>弊社の各事業の詳細を掲載しています。</p>
+                                <a href="#" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 font-type-1"  id="service3">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-users fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>採用情報</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>新卒・キャリア（中途）採用についての詳細を掲載しています。</p>
+                                <a href="#" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-sm-6 font-type-1"  id="service4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-map-marker fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>アクセス・コンタクト</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>各種お問い合わせや、所在地の地図等を掲載しております。</p>
+                                <a href="#" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +132,10 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+            <h1 class="font-type-1" id="rec">RECRUITING</h1>
+            <hr class="medium">
+            <p class="small font-type-1">採用情報ページ</p>
+            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 採用ページへ</a>
         </div>
     </aside>
 
@@ -141,39 +145,76 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="font-type-1">What's New</h2>
-                    <hr class="small">
+                    <hr class="medium">
+                    <p class="small font-type-1">ニュース</p>
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
+                        <div class="col-md-12 font-type-1" id="news1">
+                            <ul class="event-list">
+                                <li>
+                                    <time datetime="2014-07-20 0000">
+                                    <span class="day">8</span>
+                                    <span class="month">Jul</span>
+                                    <span class="year">2014</span>
+                                    <span class="time">12:00 AM</span>
+                                    </time>
+                                    <div class="info">
+                                        <h2 class="title">Shipment Ready</h2>
+                                        <p class="desc"></p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
+                        <div class="col-md-12 font-type-1" id="news2">
+                            <ul class="event-list">
+                                <li>
+                                    <time datetime="2014-07-20 0000">
+                                    <span class="day">8</span>
+                                    <span class="month">Jul</span>
+                                    <span class="year">2014</span>
+                                    <span class="time">12:00 AM</span>
+                                    </time>
+                                    <div class="info">
+                                        <h2 class="title">Shipment Ready</h2>
+                                        <p class="desc"></p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
+                        <div class="col-md-12 font-type-1" id="news3">
+                            <ul class="event-list">
+                                <li>
+                                    <time datetime="2014-07-20 0000">
+                                    <span class="day">8</span>
+                                    <span class="month">Jul</span>
+                                    <span class="year">2014</span>
+                                    <span class="time">12:00 AM</span>
+                                    </time>
+                                    <div class="info">
+                                        <h2 class="title">Shipment Ready</h2>
+                                        <p class="desc"></p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
+                        <div class="col-md-12 font-type-1" id="news4">
+                            <ul class="event-list">
+                                <li>
+                                    <time datetime="2014-07-20 0000">
+                                    <span class="day">8</span>
+                                    <span class="month">Jul</span>
+                                    <span class="year">2014</span>
+                                    <span class="time">12:00 AM</span>
+                                    </time>
+                                    <div class="info">
+                                        <h2 class="title">Shipment Ready</h2>
+                                        <p class="desc"></p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <a href="#" class="btn btn-dark font-type-1 chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> もっと見る</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -187,27 +228,50 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                    <h3>SOCIAL</h3>
+                    <hr class="medium">
+                    <p class="small font-type-1">ソーシャルアカウント</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box">
+                        <div class="box-icon">
+                            <span class="fa fa-4x fa-twitter"></span>
+                        </div>
+                        <div class="info">
+                            <h4 class="text-center">Follow Us On Twitter</h4>
+                            <a class="twitter-timeline" href="https://twitter.com/HIROSHI_1403" data-widget-id="646960370540675072">@HIROSHI_1403さんのツイート</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box">
+                        <div class="box-icon">
+                            <span class="fa fa-4x fa-facebook"></span>
+                        </div>
+                        <div class="info">
+                            <h4 class="text-center">Find Us On Facebook</h4>
+                            <!-- <iframe id="facebook-feed" src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Ffringe&width=500&height=300&show_faces=true&colorscheme=light&stream=true&border_color&header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:300px;" allowTransparency="true"></iframe> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </aside>
 
     <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </section>
+    <!-- <section id="contact" class="map">
+                <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6481.969377492912!2d139.772358!3d35.677379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be285dd2e8d%3A0xdfe2b11600bb0911!2z77yI5qCq77yJ56uc5ben56S-44ON44OD44OI44Km44Ko44Ki!5e0!3m2!1sja!2sus!4v1455521350021"></iframe>
+            <br />
+            <small>
+                <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6481.969377492912!2d139.772358!3d35.677379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be285dd2e8d%3A0xdfe2b11600bb0911!2z77yI5qCq77yJ56uc5ben56S-44ON44OD44OI44Km44Ko44Ki!5e0!3m2!1sja!2sus!4v1455521350021"></a>
+            </small>
+            </iframe>
+    </section> -->
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
+    <!-- <footer>
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Start Bootstrap</strong>
@@ -235,46 +299,15 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
+    <?php tmp_footer(); ?>
 
     <?php tmp_footer_js(); ?>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
     // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
 
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
     </script>
 </body>
 </html>
