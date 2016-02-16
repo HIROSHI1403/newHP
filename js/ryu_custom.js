@@ -31,7 +31,7 @@ $("#menu-close").click(function(e) {
     });
 
     $(".header").bgswitcher({
-        images: ['./img/top.jpg', 2, 5],
+        images: ['./img/top.jpg', 1, 5],
         effect: "clip",
     });
 

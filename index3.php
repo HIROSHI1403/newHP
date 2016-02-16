@@ -251,7 +251,7 @@
                         </div>
                         <div class="info">
                             <h4 class="text-center">Find Us On Facebook</h4>
-                            <!-- <iframe id="facebook-feed" src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Ffringe&width=500&height=300&show_faces=true&colorscheme=light&stream=true&border_color&header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:300px;" allowTransparency="true"></iframe> -->
+                            <iframe id="facebook-feed" src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Ffringe&width=500&height=300&show_faces=true&colorscheme=light&stream=true&border_color&header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:300px;" allowTransparency="true"></iframe>
                         </div>
                     </div>
                 </div>
