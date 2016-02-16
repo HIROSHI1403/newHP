@@ -52,9 +52,7 @@
                     <p class="lead font-type-1" id="about2">どこまでも信頼出来る技術と柔軟性で世界を支えるソリューションを提供し続けます</p>
                 </div>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </section>
 
     <!-- Services -->
@@ -132,7 +130,7 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1 class="font-type-1" id="rec">RECRUITING</h1>
+            <h1 class="font-type-1" id="rec">RECRUIT</h1>
             <hr class="medium">
             <p class="small font-type-1">採用情報ページ</p>
             <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 採用ページへ</a>
@@ -224,7 +222,7 @@
     </section>
 
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <!-- <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -257,7 +255,7 @@
                 </div>
             </div>
         </div>
-    </aside>
+    </aside> -->
 
     <!-- Map -->
     <!-- <section id="contact" class="map">
