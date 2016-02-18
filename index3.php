@@ -95,7 +95,7 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-users fa-stack-1x text-primary"></i>
+                                    <i class="fa fa-thumbs-o-up fa-stack-1x text-primary"></i>
                                 </span>
                                 <h4>
                                     <strong>採用情報</strong>
