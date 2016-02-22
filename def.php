@@ -6,7 +6,14 @@
 	<?php tmp_header_meta(); ?>
 </head>
 <body>
+	<?php defnavbar(); ?>
 	<?php navbar(); ?>
+
+	<!-- ここにコンテンツ -->
+
+
+	<!-- ここまでコンテンツ -->
+
 	<?php tmp_footer_js(); ?>
 </body>
 </html>

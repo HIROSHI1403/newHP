@@ -34,7 +34,7 @@
     </nav>
 
     <!-- Header -->
-    <header id="top" class="header">
+    <header id="top" class="header header_top">
         <div class="text-vertical-center">
             <h1 class="font-type-1 animated zoomInDown">RYUKOSHA NETWARE Inc.</h1>
             <h3 class="font-type-1"><u>確かな信頼と力強いソリューションでビジネスを加速させます</u></h3>

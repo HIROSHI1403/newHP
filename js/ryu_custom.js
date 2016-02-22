@@ -2,7 +2,7 @@
     index
 ================================================*/
 
-$("#menu-close").click(function(e) {
+    $("#menu-close").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
@@ -30,7 +30,7 @@ $("#menu-close").click(function(e) {
         });
     });
 
-    $(".header").bgswitcher({
+    $(".header_top").bgswitcher({
         images: ['./img/top.jpg', 1, 5],
         effect: "clip",
     });
