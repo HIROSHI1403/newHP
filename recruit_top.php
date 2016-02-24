@@ -39,125 +39,140 @@
         <div class="container" id="new_career_top">
             <div class="row row-0 text-center">
                 <div class="col-lg-12">
-                    <h2 class="font-type-1">RECRUIT</h2>
+                    <h2 class="">RECRUIT</h2>
                     <hr class="medium">
-                    <p class="small font-type-1">採用情報</p>
+                    <p class="">採用情報</p>
+                    <p class="small text-left marker_yellow_hoso"><i class="fa fa-arrow-down"></i> インタビューや募集要項を閲覧できます！</p>
                     <div>
                         <!-- Nav tabs -->
-                        <ul class="nav nav-tabs nav-justified" id="recruit-menu" role="tablist">
+                        <ul class="nav nav-tabs" id="recruit-menu" role="tablist">
+                        <!-- <ul class="nav nav-tabs nav-justified" id="recruit-menu" role="tablist"> -->
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <h4>MENU <small>メニュー</small> <span class="caret"></span></h4>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li role="presentation" class="active"><a href="#message" aria-controls="message" role="tab" data-toggle="tab">メッセージ</a></li>
+                                    <li role="presentation"><a href="#top-messages" aria-controls="top-messages" role="tab" data-toggle="tab">代表メッセージ</a></li>
+                                    <li role="presentation"><a href="#interview" aria-controls="interview" role="tab" data-toggle="tab">インタビュー</a></li>
+                                    <li role="presentation"><a href="#new" aria-controls="new" role="tab" data-toggle="tab">新卒</a></li>
+                                    <li role="presentation"><a href="#career" aria-controls="career" role="tab" data-toggle="tab">中途</a></li>
+                                    <li role="presentation"><a href="#requirements" aria-controls="requirements" role="tab" data-toggle="tab">募集要項</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li role="presentation"><a href="#message" aria-controls="message" role="tab" data-toggle="tab">メッセージ</a></li>
                             <li role="presentation"><a href="#new" aria-controls="new" role="tab" data-toggle="tab">新卒</a></li>
                             <li role="presentation"><a href="#career" aria-controls="career" role="tab" data-toggle="tab">中途</a></li>
                             <li role="presentation" class="active"><a href="#top-messages" aria-controls="top-messages" role="tab" data-toggle="tab">代表メッセージ</a></li>
-                            <li role="presentation"><a href="#interview" aria-controls="interview" role="tab" data-toggle="tab">インタビュー</a></li>
-                            <li role="presentation"><a href="#entry" aria-controls="entry" role="tab" data-toggle="tab">応募</a></li>
+                            <li role="presentation"><a href="#interview" aria-controls="interview" role="tab" data-toggle="tab">インタビュー</a></li> -->
                         </ul>
                         <!-- Tab panes -->
                         <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade" id="new" style="margin-top:10px;">
+                            <div role="tabpanel" class="tab-pane fade active in" id="message" style="margin-top:10px;">
                                 <div class="row row-10">
-                                    <div class="col-md-12">
-                                        <img src="http://placehold.jp/1800x150.png" class="img-responsive rectop_img" alt="採用">
+                                    <h2 class="page-header">若さと発想の集合体、だから毎日エキサイティング。</h2>
+                                    <p class="lead">君の才能を輝かそう！いろんなフィールドが揃っています。</p>
+                                    <div class="col-md-6">
+                                        <img src="./img/pc1.jpg" alt="IT　採用" class="img-responsive">
+                                        <div class="carousel-caption">
+                                            <h1>個性を磨く！君を磨く！</h1>
+                                        </div>
                                     </div>
-                                    <h2 class="page-header">新卒</h2>
-                                    <p>これからのＩＴ業界にはあなたの力が必要です！スピードとパワーを誇る竜巧社ネットウエアで共に働いてみませんか！</p>
+                                    <div class="col-md-6">
+                                        <div class="text">
+                                            <div class="content-text">
+                                                <h3 class="lead">
+                                                <i class="fa fa-lightbulb-o"></i> 今、ここに決める価値がある。
+                                                </h3>
+                                                <p class="">竜巧社ネットウエアの仕事はさまざま。例えば本社においてのシステム企画・開発。プログラマーから始まって、システムエンジニアまで、それぞれの能力に応じてお客様が求める最適のシステム開発を担う。あるいはお客様の要望に応じて、お客さまのシステム部署で運用業務をお手伝いする事も有る。ネットワーク監視や障害対応、ヘルプデスクと、その内容は多岐に渡ります。自分の能力、志向に応じて、いろんな業務を選択出来る竜巧社ネットウエアの仕事。新卒、未経験者でも、初期導入教育~キャリアサポートまで一貫した研修システムを備えているから安心です。</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade" id="career" style="margin-top:10px;">
-                                <div class="col-md-12">
-                                        <img src="http://placehold.jp/1800x150.png" class="img-responsive rectop_img" alt="採用">
-                                    </div>
-                                <div class="row row-10">
-                                    <h2 class="page-header">中途</h2>
-                                    <p>経験者なら夢をかなえるフィールドが揃っています。未経験者の方でもＩＴスペシャリストへの道が開けます。</p>
-                                </div>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade active in" id="top-messages" style="margin-top:10px;">
+                            <div role="tabpanel" class="tab-pane fade" id="top-messages" style="margin-top:10px;">
                                 <div class="row row-10">
                                     <h2 class="page-header">代表メッセージ</h2>
                                     <p class="lead">「これからのIT時代に、システム技術者となる人材を世に送り出そう」</p>
+                                    <div class="col-md-6">
+                                        <div class="">
+                                            <div class="">
+                                                <h1 class="page-header top">
+                                                愛を基本とし<br>技術を基礎<br>進歩を目的とす<br>
+                                                </h1>
+                                                <p class="text-right text-muted">社訓</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./img/ceo2.jpg" alt="竜巧社ネットウエア井上雅之社長" class="img-responsive">
+                                        <div class="carousel-caption">
+                                            <!-- <h1></h1> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./img/ceo.jpg" alt="竜巧社ネットウエア井上雅之社長" class="img-responsive">
+                                        <div class="carousel-caption">
+                                            <!-- <h1></h1> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="">
+                                            <div class="text-left">
+                                                <h3 class="page-header">
+                                                   設立。そして、これから。
+                                                </h3>
+                                                <p class="">これからのIT時代に、システム技術者となる人材を世に送り出そう。」人材開発と教育事業で培った経験を活かし、社員0名から「竜巧社ネットウエア」は設立されました。</p>
+                                                <p>設立当初から今まで一貫して私は経営理念でもある「愛を持って人に接する」ということを自分自身、又社員一同に対して唱えております。その結果、社員1人から始まり、友が友を呼びいつしか組織として大きく成長することができました。</p>
+                                                <p>今まさに若い社員と経験豊かな社員が共に柔軟な頭脳を持ち合わせ、新鮮且つ斬新なアイデアを形にして行く果てしない可能性と果敢に挑む姿勢で事業活動を盛り上げ、夢を実現しようとしています。</p>
+                                                <p>当社の経営理念及び社員一丸となった仕事への意欲、ならびにお客様に対しての感謝の気持ちが少しでも皆様に伝わることが出来たなら幸いです。</p>
+                                                <h6 class="text-right">
+                                                    <i class="fa fa-pencil"></i> 代表取締役社長 / 井上 雅之
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="interview" style="margin-top:10px;">
                                 <div class="row row-10">
                                     <h2 class="page-header">インタビュー</h2>
                                     <p>社員のインタビューや仕事の紹介をまとめています。</p>
+                                    <div class="col-md-6">
+                                        <img src="./img/pc3.jpg" alt="IT　採用" class="img-responsive">
+                                        <div class="carousel-caption">
+                                            <h1>ここで聞ける本音！</h1>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="text">
+                                            <div class="content-text">
+                                                <h3 class="lead">
+                                                    実際どうよ？そんな話をしてくれました。
+                                                </h3>
+                                                <p class="lead">各現場で活躍している方々のインタビューを掲載しています。</p>
+                                                <a href="javascript:void(0);" class="btn-5"><i class="fa fa-angle-right"></i> 詳しく見てみる</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade" id="entry" style="margin-top:10px;">
+                            <div role="tabpanel" class="tab-pane fade" id="new" style="margin-top:10px;">
                                 <div class="row row-10">
-                                    <h2 class="page-header">エントリー・コンタクト</h2>
-                                    <p>気になったらすぐに応募ください！あなたの第一歩をサポート！</p>
-                                    <form class="form-horizontal">
-                                        <fieldset>
-                                            <div class="form-group">
-                                                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                                                <div class="col-lg-10">
-                                                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-                                                <div class="col-lg-10">
-                                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox"> Checkbox
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-                                                <div class="col-lg-10">
-                                                    <textarea class="form-control" rows="3" id="textArea"></textarea>
-                                                    <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-lg-2 control-label">Radios</label>
-                                                <div class="col-lg-10">
-                                                    <div class="radio">
-                                                        <label>
-                                                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-                                                            Option one is this
-                                                        </label>
-                                                    </div>
-                                                    <div class="radio">
-                                                        <label>
-                                                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                                                            Option two can be something else
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="select" class="col-lg-2 control-label">Selects</label>
-                                                <div class="col-lg-10">
-                                                    <select class="form-control" id="select">
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
-                                                    </select>
-                                                    <br>
-                                                    <select multiple="" class="form-control">
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="col-lg-10 col-lg-offset-2">
-                                                    <button type="reset" class="btn btn-default">Cancel</button>
-                                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                                </div>
-                                            </div>
-                                        </fieldset>
-                                    </form>
+                                    <h2 class="page-header">新卒</h2>
+                                    <p>これからのＩＴ業界にはあなたの力が必要です！スピードとパワーを誇る竜巧社ネットウエアで共に働いてみませんか！</p>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="career" style="margin-top:10px;">
+                                <div class="row row-10">
+                                    <h2 class="page-header">中途</h2>
+                                    <p>経験者なら夢をかなえるフィールドが揃っています。未経験者の方でもＩＴスペシャリストへの道が開けます。</p>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="requirements" style="margin-top:10px;">
+                                <div class="row row-10">
+                                    <h2 class="page-header">募集要項</h2>
+                                    <p>ここに各種募集要項を入れます。</p>
                                 </div>
                             </div>
                         </div>
@@ -166,6 +181,16 @@
             </div>
         </div>
     </section>
+
+    <aside class="rotat">
+        <div class="rotat_inner">
+            <h1 class="" id="rec"><i class="fa fa-phone-square"></i> ENTRY／CONTACT <i class="fa fa-envelope"></i></h1>
+            <P>エントリー・コンタクト</P>
+            <hr class="medium">
+            <p class="small"><p>気になったらすぐに応募ください！あなたの第一歩をサポート！</p></p>
+            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
+        </div>
+   </aside>
 
     <?php tmp_footer(); ?>
 

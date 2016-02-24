@@ -76,7 +76,7 @@ function defnavbar(){
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#"  onclick = $("#menu-close").click(); >竜巧社ネットウエア</a>
+                <a href="javascript:void(0);"  onclick = $("#menu-close").click(); >竜巧社ネットウエア</a>
             </li>
             <li>
                 <a href="#" onclick = $("#menu-close").click(); >トップ</a>
@@ -114,7 +114,7 @@ function tmp_footer(){
 					<ul class="list-unstyled">
 						<li class="">
 							<h3 class="footerh page-header">会社案内</h3>
-							<ul class="list-unstyled footerul">
+							<ul class="list-unstyled footerul contents">
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 経営理念</a></li>
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 組織図</a></li>
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 沿革</a></li>
@@ -127,7 +127,7 @@ function tmp_footer(){
 					<ul class="list-unstyled">
 						<li class="">
 							<h3 class="footerh page-header">事業案内</h3>
-							<ul class="list-unstyled footerul">
+							<ul class="list-unstyled footerul contents">
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> システム基盤部</a></li>
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> システム開発部</a></li>
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> システム運用部</a></li>
@@ -140,7 +140,7 @@ function tmp_footer(){
 					<ul class="list-unstyled">
 						<li class="">
 							<h3 class="footerh page-header">採用案内</h3>
-							<ul class="list-unstyled footerul">
+							<ul class="list-unstyled footerul contents">
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 採用トップ</a></li>
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 新卒採用</a></li>
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 中途採用</a></li>
@@ -156,7 +156,7 @@ function tmp_footer(){
 					<ul class="list-unstyled">
 						<li class="">
 							<h3 class="footerh page-header">アクセス・コンタクト</h3>
-							<ul class="list-unstyled footerul">
+							<ul class="list-unstyled footerul contents">
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> お問い合わせ</a></li>
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> エントリー（応募）</a></li>
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> メール（mail）</a></li>
@@ -171,7 +171,7 @@ function tmp_footer(){
 					<ul class="list-unstyled">
 						<li class="">
 							<h3 class="footerh page-header">セキュリティ</h3>
-							<ul class="list-unstyled footerul list-inline">
+							<ul class="list-unstyled footerul list-inline contents">
 								<li>
 									<a href="#"><img src="./img/p.jpg" class="img-responsive footer-img" alt="Pマーク　個人情報保護方針"></a>
 									<a  href="#"><i class="fa fa-angle-double-right"></i> 個人情報保護方針</a>
@@ -188,7 +188,7 @@ function tmp_footer(){
 					<ul class="list-unstyled">
 						<li class="">
 							<h3 class="footerh page-header">親会社（Parent company）</h3>
-							<ul class="list-unstyled footerul list-inline">
+							<ul class="list-unstyled footerul list-inline contents">
 								<li>
 									<a href="#"><img src="./img/IIJLogo.jpg" class="img-responsive footer-img" alt="IIJ　株式会社インターネットイニシアティブ"></a>
 									<a  href="#"><i class="fa fa-angle-double-right"></i> Internet Initiative Japan Inc. 株式会社インターネットイニシアティブ</a>
@@ -201,15 +201,21 @@ function tmp_footer(){
 					<ul class="list-unstyled">
 						<li class="">
 							<h3 class="footerh page-header"><i class="fa fa-lock"></i> 社員限定</h3>
-							<ul class="list-unstyled footerul">
+							<ul class="list-unstyled footerul contents">
 								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 社員限定サイト</a></li>
 							</ul>
 						</li>
 					</ul>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="footerh page-header">弊社LOGO</h3>
-					<img src="./img/rnw_logo_W2.png" class="img-responsive footer-img-logo" alt="RYUKOSHA NETWARE Inc．株式会社 竜巧社ネットウエア">
+					<ul class="list-unstyled">
+						<li class="">
+							<h3 class="footerh page-header">弊社LOGO</h3>
+							<ul class="list-unstyled footerul contents">
+								<img src="./img/rnw_logo_W2.png" class="img-responsive footer-img-logo" alt="RYUKOSHA NETWARE Inc．株式会社 竜巧社ネットウエア">
+							</ul>
+						</li>
+					</ul>
 				</div>
 				<div class="col-sm-12 footerdiv"></div>
 				<div class="col-sm-12 text-center">
