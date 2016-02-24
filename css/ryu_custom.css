@@ -526,3 +526,32 @@ footer {
 ================================================*/
 
 del,ins{text-decoration:none;}
+
+
+/*================================================
+  footer & ノーマル所在について
+================================================*/
+.footer {
+    padding: 50px 0;
+}
+.bg-footer {
+    color: #fff;
+    background-color: #333;
+}
+
+.footerdiv{
+    margin-bottom: 30px;
+}
+
+.footer-img{
+    max-height:100px;
+}
+.footer-img-logo{
+    max-height:50px;
+}
+
+footer .page-header{
+    padding-top:9px;
+    padding-bottom:9px;
+    padding-left: 9px;
+}

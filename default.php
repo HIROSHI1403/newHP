@@ -71,27 +71,27 @@ EOT;
 function defnavbar(){
 	echo<<<EOT
 	<!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i> MENU</a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >竜巧社ネットウエア</a>
+                <a href="#"  onclick = $("#menu-close").click(); >竜巧社ネットウエア</a>
             </li>
             <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+                <a href="#" onclick = $("#menu-close").click(); >トップ</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+                <a href="#" onclick = $("#menu-close").click(); >会社案内</a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
+                <a href="#" onclick = $("#menu-close").click(); >事業案内</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+                <a href="#" onclick = $("#menu-close").click(); >採用情報</a>
             </li>
             <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+                <a href="#" onclick = $("#menu-close").click(); >アクセス・コンタクト</a>
             </li>
         </ul>
     </nav>
@@ -102,7 +102,7 @@ EOT;
 
 function tmp_footer(){
 	echo<<<EOT
-	<footer>
+	<footer class="footer bg-footer">
         <div class="container-fluid">
             <div class="row row-10">
 				<div class="col-sm-12 text-center">
@@ -113,16 +113,12 @@ function tmp_footer(){
 				<div class="col-sm-3">
 					<ul class="list-unstyled">
 						<li class="">
-							<h3 class="footerh">会社案内</h3>
+							<h3 class="footerh page-header">会社案内</h3>
 							<ul class="list-unstyled footerul">
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Success Stories</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> PG Courses</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Achiever's Batch</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Regular Batch</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Test & Discussion</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Fast Track T & D</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 経営理念</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 組織図</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 沿革</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 会社案内</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -130,16 +126,12 @@ function tmp_footer(){
 				<div class="col-sm-3">
 					<ul class="list-unstyled">
 						<li class="">
-							<h3 class="footerh">事業案内</h3>
+							<h3 class="footerh page-header">事業案内</h3>
 							<ul class="list-unstyled footerul">
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Success Stories</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> PG Courses</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Achiever's Batch</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Regular Batch</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Test & Discussion</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Fast Track T & D</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> システム基盤部</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> システム開発部</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> システム運用部</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> サービスサポート部</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -147,16 +139,15 @@ function tmp_footer(){
 				<div class="col-sm-3">
 					<ul class="list-unstyled">
 						<li class="">
-							<h3 class="footerh">採用案内</h3>
+							<h3 class="footerh page-header">採用案内</h3>
 							<ul class="list-unstyled footerul">
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Success Stories</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> PG Courses</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Achiever's Batch</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Regular Batch</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Test & Discussion</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Fast Track T & D</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 採用トップ</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 新卒採用</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 中途採用</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> トップメッセージ</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> インタビュー</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 募集要項</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 特集・特記事項</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -164,29 +155,63 @@ function tmp_footer(){
 				<div class="col-sm-3">
 					<ul class="list-unstyled">
 						<li class="">
-							<h3 class="footerh">アクセス・コンタクト</h3>
+							<h3 class="footerh page-header">アクセス・コンタクト</h3>
 							<ul class="list-unstyled footerul">
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Success Stories</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> PG Courses</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Achiever's Batch</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Regular Batch</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Test & Discussion</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> Fast Track T & D</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> お問い合わせ</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> エントリー（応募）</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> メール（mail）</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 電話（TEL）</a></li>
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 所在地・地図</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-12 footerdiv"></div>
+				<div class="col-sm-8">
+					<ul class="list-unstyled">
+						<li class="">
+							<h3 class="footerh page-header">セキュリティ</h3>
+							<ul class="list-unstyled footerul list-inline">
+								<li>
+									<a href="#"><img src="./img/p.jpg" class="img-responsive footer-img" alt="Pマーク　個人情報保護方針"></a>
+									<a  href="#"><i class="fa fa-angle-double-right"></i> 個人情報保護方針</a>
+								</li>
+								<li>
+									<a href="#"><img src="./img/isms.png" class="img-responsive footer-img" alt="ISMS　情報セキュリティ基本方針"></a>
+									<a  href="#"><i class="fa fa-angle-double-right"></i> 情報セキュリティ方針</a>
+								</li>
 							</ul>
 						</li>
 					</ul>
 				</div>
 				<div class="col-sm-4">
-					
+					<ul class="list-unstyled">
+						<li class="">
+							<h3 class="footerh page-header">親会社（Parent company）</h3>
+							<ul class="list-unstyled footerul list-inline">
+								<li>
+									<a href="#"><img src="./img/IIJLogo.jpg" class="img-responsive footer-img" alt="IIJ　株式会社インターネットイニシアティブ"></a>
+									<a  href="#"><i class="fa fa-angle-double-right"></i> Internet Initiative Japan Inc. 株式会社インターネットイニシアティブ</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-8">
+					<ul class="list-unstyled">
+						<li class="">
+							<h3 class="footerh page-header"><i class="fa fa-lock"></i> 社員限定</h3>
+							<ul class="list-unstyled footerul">
+								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 社員限定サイト</a></li>
+							</ul>
+						</li>
+					</ul>
 				</div>
 				<div class="col-sm-4">
-					
+					<h3 class="footerh page-header">弊社LOGO</h3>
+					<img src="./img/rnw_logo_W2.png" class="img-responsive footer-img-logo" alt="RYUKOSHA NETWARE Inc．株式会社 竜巧社ネットウエア">
 				</div>
-				<div class="col-sm-4">
-					
-				</div>
+				<div class="col-sm-12 footerdiv"></div>
 				<div class="col-sm-12 text-center">
 					Copyright (C) 2005-2015 RYUKOSHA NETWARE Inc. All Rights Reserved.
 				</div>
