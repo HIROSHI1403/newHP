@@ -30,12 +30,12 @@ $title_main = $DEF_title.' TOP';
 
 
 // パンくずリスト（breadcrumbs）
-function breadcrumbs($int0_3,$name1,$name2,$name3){
+function breadcrumbs($int0_3,$name1,$name1_url,$name2,$name2_url,$name3,$name3_url){
 
 	if ($int0_3 == 0) {
 		echo<<<EOT
 			<div class="btn-group btn-breadcrumb">
-				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+				<a href="./index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
 			</div>
 EOT;
 	}
@@ -43,8 +43,8 @@ EOT;
 	if ($int0_3 == 1) {
 		echo<<<EOT
 			<div class="btn-group btn-breadcrumb">
-				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
-	            <a href="#" class="btn btn-default disabled">{$name1}</a>
+				<a href="./index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+	            <a href="javascript:void(0);" class="btn btn-default disabled">{$name1}</a>
 	        </div>
 EOT;
 	}
@@ -52,9 +52,9 @@ EOT;
 	if ($int0_3 == 2) {
 		echo<<<EOT
 			<div class="btn-group btn-breadcrumb">
-				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
-	            <a href="#" class="btn btn-default">{$name1}</a>
-	            <a href="#" class="btn btn-default disabled">{$name2}</a>
+				<a href="./index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+	            <a href="{$name1_url}" class="btn btn-default">{$name1}</a>
+	            <a href="javascript:void(0);" class="btn btn-default disabled">{$name2}</a>
 	        </div>
 EOT;
 	}
@@ -62,10 +62,10 @@ EOT;
 	if ($int0_3 == 3) {
 		echo<<<EOT
 			<div class="btn-group btn-breadcrumb">
-				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
-	            <a href="#" class="btn btn-default">{$name1}</a>
-	            <a href="#" class="btn btn-default">{$name2}</a>
-	            <a href="#" class="btn btn-default disabled">{$name3}</a>
+				<a href="./index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+	            <a href="{$name1_url}" class="btn btn-default">{$name1}</a>
+	            <a href="{$name2_url}" class="btn btn-default">{$name2}</a>
+	            <a href="javascript:void(0);" class="btn btn-default disabled">{$name3}</a>
 	        </div>
 EOT;
 	}

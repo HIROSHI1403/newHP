@@ -36,7 +36,7 @@
     <section id="breadcrumb_nav">
         <!-- <div class="container-fluid text-center"> -->
             <div class="row row-10">
-                <?php breadcrumbs(1,'リクルート','','') ?>
+                <?php breadcrumbs(1,'リクルート','','','','',''); ?>
             </div>
         <!-- </div> -->
     </section>

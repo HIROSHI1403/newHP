@@ -12,7 +12,7 @@
     <section id="breadcrumb_nav">
         <!-- <div class="container-fluid"> -->
             <div class="row row-10">
-                <?php breadcrumbs(2,'リクルート','インタビュー','') ?>
+                <?php breadcrumbs(2,'リクルート','./recruit_top.php','インタビュー','','',''); ?>
             </div>
         <!-- </div> -->
     </section>
