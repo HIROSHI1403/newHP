@@ -79,19 +79,19 @@ function defnavbar(){
                 <a href="javascript:void(0);"  onclick = $("#menu-close").click(); >竜巧社ネットウエア</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); >トップ</a>
+                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-home"></i> トップ</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); >会社案内</a>
+                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-leanpub"></i> 会社案内</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); >事業案内</a>
+                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-list-alt"></i> 事業案内</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); >採用情報</a>
+                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-thumbs-o-up"></i> 採用情報</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); >アクセス・コンタクト</a>
+                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-map-signs"></i> アクセス・コンタクト</a>
             </li>
         </ul>
     </nav>
@@ -212,7 +212,7 @@ function tmp_footer(){
 						<li class="">
 							<h3 class="footerh page-header">弊社LOGO</h3>
 							<ul class="list-unstyled footerul contents">
-								<img src="./img/rnw_logo_W2.png" class="img-responsive footer-img-logo" alt="RYUKOSHA NETWARE Inc．株式会社 竜巧社ネットウエア">
+								<img src="./img/rnw_logo_W4.jpg" class="img-responsive footer-img-logo" alt="RYUKOSHA NETWARE Inc．株式会社 竜巧社ネットウエア">
 							</ul>
 						</li>
 					</ul>
