@@ -29,6 +29,57 @@ $DEF_title = '竜巧社ネットウエア';
 $title_main = $DEF_title.' TOP';
 
 
+// パンくずリスト（breadcrumbs）
+function breadcrumbs($int0_3,$name1,$name2,$name3){
+
+	if ($int0_3 == 0) {
+		echo<<<EOT
+			<div class="btn-group btn-breadcrumb">
+				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+			</div>
+EOT;
+	}
+
+	if ($int0_3 == 1) {
+		echo<<<EOT
+			<div class="btn-group btn-breadcrumb">
+				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+	            <a href="#" class="btn btn-default disabled">{$name1}</a>
+	        </div>
+EOT;
+	}
+
+	if ($int0_3 == 2) {
+		echo<<<EOT
+			<div class="btn-group btn-breadcrumb">
+				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+	            <a href="#" class="btn btn-default">{$name1}</a>
+	            <a href="#" class="btn btn-default disabled">{$name2}</a>
+	        </div>
+EOT;
+	}
+
+	if ($int0_3 == 3) {
+		echo<<<EOT
+			<div class="btn-group btn-breadcrumb">
+				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+	            <a href="#" class="btn btn-default">{$name1}</a>
+	            <a href="#" class="btn btn-default">{$name2}</a>
+	            <a href="#" class="btn btn-default disabled">{$name3}</a>
+	        </div>
+EOT;
+	}
+
+	if($int0_3 > 3){
+		echo<<<EOT
+			<div class="btn-group btn-breadcrumb">
+				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-home"></i>NONE</a>
+			</div>
+EOT;
+	}
+}
+
+
 //デフォルト
 function tmp_header_meta(){
 	global $DEF_title;

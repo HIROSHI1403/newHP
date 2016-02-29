@@ -33,6 +33,13 @@
             </div>
         </div>
     </section> -->
+    <section id="breadcrumb_nav">
+        <!-- <div class="container-fluid text-center"> -->
+            <div class="row row-10">
+                <?php breadcrumbs(1,'リクルート','','') ?>
+            </div>
+        <!-- </div> -->
+    </section>
     <section>
         <div class="container" id="recruit_top">
             <div class="row row-0 text-center">
@@ -154,7 +161,7 @@
                                             </div>
                                         </div>
                                         <h3 class="page-header text-left"><i class="fa fa-comments-o"></i> 詳しくはこちらのリンクより！</h3>
-                                        <p class=""><a href="javascript:void(0);" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
+                                        <p class=""><a href="./Interview_top.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
                                     </div>
                                 </div>
                             </div>
