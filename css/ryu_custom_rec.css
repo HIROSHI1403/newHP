@@ -73,9 +73,17 @@ small.def{
 .margin10{
     margin-bottom:10px;
 }
+.margin0{
+    margin-bottom:0px;
+}
+
+.margin10 .well{
+    box-shadow:none;
+    border-radius:0px;
+}
 
 .border-solid{
-  border-radius:0px;
+    border-radius:0px;
 }
 
 /*================================================
