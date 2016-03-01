@@ -19,6 +19,14 @@
         </div>
     </header>
 
+    <section id="breadcrumb_nav">
+        <!-- <div class="container-fluid"> -->
+            <div class="row row-10">
+                <?php breadcrumbs(0,'','','','','',''); ?>
+            </div>
+        <!-- </div> -->
+    </section>
+
     <!-- About -->
     <section id="about" class="about">
         <div class="container">
@@ -109,7 +117,7 @@
             <h1 class="font-type-1" id="rec">RECRUIT</h1>
             <hr class="medium">
             <p class="small font-type-1">採用情報ページ</p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 採用ページへ</a>
+            <a href="./recruit_top.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 採用ページへ</a>
         </div>
     </aside>
 

@@ -9,7 +9,7 @@
 <body>
 	<?php defnavbar(); ?>
 	<!-- Header -->
-    <header id="top" class="header rec_top">
+    <header id="top" class="header rec_top" style="background-attachment: fixed;">
         <div class="text-vertical-center container-fluid" style="text-align:left;">
             <h1 class="">RYUKOSHA NETWARE Inc.</h1>
             <h2 class="type"><del class="red"><strong>RECRUIT</strong></del><span class="purple">採用情報</span><br>
@@ -40,6 +40,7 @@
             </div>
         <!-- </div> -->
     </section>
+    <?php tmp_rec_nav(); ?>
     <section>
         <div class="container" id="recruit_top">
             <div class="row row-0 text-center">
@@ -205,7 +206,7 @@
                                             <div class="content-text">
                                                 <h3 class="">
                                                     <i class="fa fa-pencil-square-o"></i>
-                                                    君の世界の”FUTURE”をここで創る！
+                                                    君と世界の”FUTURE”をここで創る！
                                                 </h3>
                                                 <p class="lead">竜巧社ネットウエアでは、教育環境やOJT等に力を入れています。社会人教育から技術教育まで多岐にわたる成長を実感できます！一緒に君の将来（”FUTURE”）と世の中の未来（”FUTURE”）ここで創造していきましょう！</p>
                                             </div>
@@ -250,8 +251,8 @@
                                                 <span class="fa fa-thumbs-o-up fa-4x"></span>
                                             </div>
                                             <div class="info">
-                                                <h4 class="page-header text-center">新卒採用</h4>
-                                                <h5 class="">集まれ！若いチカラ！</h5>
+                                                <h3 class="page-header text-center">新卒採用</h3>
+                                                <h4 class="">集まれ！若いチカラ！</h4>
                                                 <a href="" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳細を確認する</a>
                                             </div>
                                         </div>
@@ -262,8 +263,8 @@
                                                 <span class="fa fa-thumbs-up fa-4x"></span>
                                             </div>
                                             <div class="info">
-                                                <h4 class="page-header text-center">中途採用</h4>
-                                                <h5 class="">経験・未経験問いません！</h5>
+                                                <h3 class="page-header text-center">中途採用</h3>
+                                                <h4 class="">経験・未経験問いません！</h4>
                                                 <a href="" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳細を確認する</a>
                                             </div>
                                         </div>
@@ -274,8 +275,8 @@
                                                 <span class="fa fa-newspaper-o fa-4x"></span>
                                             </div>
                                             <div class="info">
-                                                <h4 class="page-header text-center">各種求人媒体</h4>
-                                                <h5 class="">詳細は各リンクをクリックしてください！</h5>
+                                                <h3 class="page-header text-center">各種求人媒体</h3>
+                                                <h4 class="">詳細は各リンクをクリックしてください！</h4>
                                                 <div class="row row-10">
                                                     <div class="col-md-6 margin10 text-center">
                                                         <img src="http://placehold.jp/500x150.png" class="img-responsive img-center" alt="求人媒体">

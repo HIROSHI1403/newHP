@@ -130,7 +130,7 @@ function defnavbar(){
                 <a href="javascript:void(0);"  onclick = $("#menu-close").click(); >竜巧社ネットウエア</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-home"></i> トップ</a>
+                <a href="./index.php" onclick = $("#menu-close").click(); ><i class="fa fa-home"></i> トップ</a>
             </li>
             <li>
                 <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-leanpub"></i> 会社案内</a>
@@ -139,7 +139,7 @@ function defnavbar(){
                 <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-list-alt"></i> 事業案内</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-thumbs-o-up"></i> 採用情報</a>
+                <a href="./recruit_top.php" onclick = $("#menu-close").click(); ><i class="fa fa-thumbs-o-up"></i> 採用情報</a>
             </li>
             <li>
                 <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-map-signs"></i> アクセス・コンタクト</a>
@@ -277,5 +277,74 @@ function tmp_footer(){
     </footer>
 EOT;
 }
+
+//リクルートページメニュー
+
+function tmp_rec_nav(){
+	echo<<<EOT
+	<aside>
+        <div class="container" id="rec_top_links">
+            <div class="row row-0 text-center">
+                <div class="col-lg-12">
+                    <p class="small"><i class="fa fa-link"></i> LINKS</p>
+                </div>
+                <div class="col-xs-2">
+                    <div class="list-group">
+                        <a href="./recruit_top.php" class="list-group-item">
+                            <h5 class="list-group-item-heading"><i class="fa fa-caret-square-o-left"></i></h5>
+                            <p class="list-group-item-text small text-muted">TOPページ</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="list-group">
+                        <a href="./interview_top.php" class="list-group-item">
+                            <h5 class="list-group-item-heading"><i class="fa fa-comments-o"></i></h5>
+                            <p class="list-group-item-text small text-muted">インタビュー</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="list-group">
+                        <a href="./new.php" class="list-group-item">
+                            <h5 class="list-group-item-heading"><i class="fa fa-thumbs-o-up"></i></h5>
+                            <p class="list-group-item-text small text-muted">新卒採用</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="list-group">
+                        <a href="./midcareer.php" class="list-group-item">
+                            <h5 class="list-group-item-heading"><i class="fa fa-thumbs-up"></i></h5>
+                            <p class="list-group-item-text small text-muted">中途採用</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="list-group">
+                        <a href="./requirements.php" class="list-group-item">
+                            <h5 class="list-group-item-heading"><i class="fa fa-list-alt"></i></h5>
+                            <p class="list-group-item-text small text-muted">各種募集要項</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <h5 class="list-group-item-heading"><i class="fa fa-paper-plane-o"></i></h5>
+                            <p class="list-group-item-text small text-muted">応募フォーム</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+EOT;
+}
+
+
+
+
+
 
 ?>

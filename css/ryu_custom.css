@@ -87,6 +87,10 @@ hr.medium {
     max-width: 200px;
 }
 
+hr.large {
+    max-width: 320px;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -210,7 +214,7 @@ hr.medium {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/rec.jpg) no-repeat center center scroll;
+    background: url(../img/rec.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

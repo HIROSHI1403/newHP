@@ -16,28 +16,111 @@
             </div>
         <!-- </div> -->
     </section>
-    <section id="interview_top">
+    <section id="interview_top" class="padding-top50">
         <div class="container">
             <div class="row row-0 text-center">
                 <div class="col-lg-12">
-                    <h2 class="">RECRUIT</h2>
-                    <hr class="medium">
-                    <p class="">採用情報</p>
+                    <h1 class="page-header">INTERVIEW</h1>
+                    <p class="">インタビュー</p>
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="container" id="recruit_top">
+        <div class="container" id="interview_top_message">
             <div class="row row-0 text-center">
                 <div class="col-lg-12">
-                    <h2 class="">RECRUIT</h2>
-                    <hr class="medium">
-                    <p class="">採用情報</p>
+                    <h1 class="" id="">社員のインタビュー内容を掲載しています！</h1>
+                    <hr class="large">
+                    <p class="lead ">何気ない話や、仕事の話、実は「◯◯です！」なんて話も掲載しています！</p>
                 </div>
             </div>
         </div>
     </section>
+    <?php tmp_rec_nav(); ?>
+    <section>
+        <div class="container" id="interview_top_main">
+            <div class="row row-0 text-center">
+                <div class="col-lg-12">
+                    <h1 class="" id="">現場で活躍する先輩たち</h1>
+                    <hr class="medium">
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center">
+                        <a href="javascript:void(0);">
+                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                        </a>
+                        <p>LINK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <aside class="rotat">
         <div class="rotat_inner">
