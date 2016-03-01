@@ -69,7 +69,6 @@
                                 <li class="active"><a href="#new_tab" data-toggle="tab"><span class="lead"><i class="fa fa-thumbs-o-up"></i> 新卒</span></a></li>
                                 <li><a href="#career_tab" data-toggle="tab"><span class="lead"><i class="fa fa-thumbs-up"></i> 中途</span></a></li>
                             </ul>
-                        </span>
                     </div>
                     <div class="panel-body">
                         <div class="tab-content">
