@@ -59,7 +59,7 @@
                                     <strong>会社案内</strong>
                                 </h4>
                                 <p>会社概要や組織図、経営理念について掲載しています。</p>
-                                <a href="#" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
+                                <a href="./aboutus.php" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 font-type-1"  id="service2">
@@ -72,7 +72,7 @@
                                     <strong>事業案内</strong>
                                 </h4>
                                 <p>弊社の各事業の詳細を掲載しています。</p>
-                                <a href="#" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
+                                <a href="./businessguide.php" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 font-type-1"  id="service3">
@@ -85,7 +85,7 @@
                                     <strong>採用情報</strong>
                                 </h4>
                                 <p>新卒・キャリア（中途）採用についての詳細を掲載しています。</p>
-                                <a href="#" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
+                                <a href="./recruit_top.php" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 font-type-1"  id="service4">
@@ -133,15 +133,15 @@
                         <div class="col-md-12 font-type-1" id="news1">
                             <ul class="event-list">
                                 <li>
-                                    <time datetime="2014-07-20 0000">
-                                    <span class="day">8</span>
-                                    <span class="month">Jul</span>
-                                    <span class="year">2014</span>
-                                    <span class="time">12:00 AM</span>
+                                    <time datetime="2015-04-01 0000">
+                                    <span class="day">1</span>
+                                    <span class="month">Apr</span>
+                                    <span class="year">2015</span>
+                                    <!-- <span class="time">12:00 AM</span> -->
                                     </time>
                                     <div class="info">
-                                        <h2 class="title">Shipment Ready</h2>
-                                        <p class="desc"></p>
+                                        <p class="title text-muted">会社役員の役職を変更しました。</p>
+                                        <p class="desc small text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
                                     </div>
                                 </li>
                             </ul>
@@ -149,15 +149,15 @@
                         <div class="col-md-12 font-type-1" id="news2">
                             <ul class="event-list">
                                 <li>
-                                    <time datetime="2014-07-20 0000">
-                                    <span class="day">8</span>
-                                    <span class="month">Jul</span>
+                                    <time datetime="2014-12-01 0000">
+                                    <span class="day">1</span>
+                                    <span class="month">Dec</span>
                                     <span class="year">2014</span>
-                                    <span class="time">12:00 AM</span>
+                                    <!-- <span class="time">12:00 AM</span> -->
                                     </time>
                                     <div class="info">
-                                        <h2 class="title">Shipment Ready</h2>
-                                        <p class="desc"></p>
+                                        <p class="title text-muted">株式会社譲渡に関するお知らせ</p>
+                                        <p class="desc small text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
                                     </div>
                                 </li>
                             </ul>
@@ -165,15 +165,15 @@
                         <div class="col-md-12 font-type-1" id="news3">
                             <ul class="event-list">
                                 <li>
-                                    <time datetime="2014-07-20 0000">
-                                    <span class="day">8</span>
-                                    <span class="month">Jul</span>
+                                    <time datetime="2014-09-29 0000">
+                                    <span class="day">29</span>
+                                    <span class="month">Sep</span>
                                     <span class="year">2014</span>
-                                    <span class="time">12:00 AM</span>
+                                    <!-- <span class="time">12:00 AM</span> -->
                                     </time>
                                     <div class="info">
-                                        <h2 class="title">Shipment Ready</h2>
-                                        <p class="desc"></p>
+                                        <p class="title text-muted">プライバシーマークの更新認定を受けました。（第10823037（04）号）</p>
+                                        <p class="desc small text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
                                     </div>
                                 </li>
                             </ul>
@@ -181,14 +181,14 @@
                         <div class="col-md-12 font-type-1" id="news4">
                             <ul class="event-list">
                                 <li>
-                                    <time datetime="2014-07-20 0000">
-                                    <span class="day">8</span>
-                                    <span class="month">Jul</span>
-                                    <span class="year">2014</span>
-                                    <span class="time">12:00 AM</span>
+                                    <time datetime="2012-09-29 0000">
+                                    <span class="day">29</span>
+                                    <span class="month">Sep</span>
+                                    <span class="year">2012</span>
+                                    <!-- <span class="time">12:00 AM</span> -->
                                     </time>
                                     <div class="info">
-                                        <h2 class="title">Shipment Ready</h2>
+                                        <p class="title text-muted">プライバシーマークの更新認定を受けました。(第10823037(03)号)</p>
                                         <p class="desc"></p>
                                     </div>
                                 </li>

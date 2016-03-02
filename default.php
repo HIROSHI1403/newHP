@@ -133,10 +133,10 @@ function defnavbar(){
                 <a href="./index.php" onclick = $("#menu-close").click(); ><i class="fa fa-home"></i> トップ</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-leanpub"></i> 会社案内</a>
+                <a href="./aboutus.php" onclick = $("#menu-close").click(); ><i class="fa fa-leanpub"></i> 会社案内</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-list-alt"></i> 事業案内</a>
+                <a href="./businessguide.php" onclick = $("#menu-close").click(); ><i class="fa fa-list-alt"></i> 事業案内</a>
             </li>
             <li>
                 <a href="./recruit_top.php" onclick = $("#menu-close").click(); ><i class="fa fa-thumbs-o-up"></i> 採用情報</a>
@@ -292,7 +292,7 @@ function tmp_rec_nav(){
                     <div class="list-group">
                         <a href="./recruit_top.php" class="list-group-item">
                             <h5 class="list-group-item-heading"><i class="fa fa-caret-square-o-left"></i></h5>
-                            <p class="list-group-item-text small text-muted">TOPページ</p>
+                            <p class="list-group-item-text small text-muted">採用TOP</p>
                         </a>
                     </div>
                 </div>
@@ -300,7 +300,7 @@ function tmp_rec_nav(){
                     <div class="list-group">
                         <a href="./interview_top.php" class="list-group-item">
                             <h5 class="list-group-item-heading"><i class="fa fa-comments-o"></i></h5>
-                            <p class="list-group-item-text small text-muted">インタビュー</p>
+                            <p class="list-group-item-text small text-muted">社員の声</p>
                         </a>
                     </div>
                 </div>
@@ -324,7 +324,7 @@ function tmp_rec_nav(){
                     <div class="list-group">
                         <a href="./requirements.php" class="list-group-item">
                             <h5 class="list-group-item-heading"><i class="fa fa-list-alt"></i></h5>
-                            <p class="list-group-item-text small text-muted">各種募集要項</p>
+                            <p class="list-group-item-text small text-muted">募集要項</p>
                         </a>
                     </div>
                 </div>
@@ -332,7 +332,7 @@ function tmp_rec_nav(){
                     <div class="list-group">
                         <a href="#" class="list-group-item">
                             <h5 class="list-group-item-heading"><i class="fa fa-paper-plane-o"></i></h5>
-                            <p class="list-group-item-text small text-muted">応募フォーム</p>
+                            <p class="list-group-item-text small text-muted">応募する</p>
                         </a>
                     </div>
                 </div>

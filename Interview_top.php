@@ -21,7 +21,7 @@
             <div class="row row-0 text-center">
                 <div class="col-lg-12">
                     <h1 class="page-header">INTERVIEW</h1>
-                    <p class="">インタビュー</p>
+                    <p class="">社員の声＜インタビュー＞</p>
                 </div>
             </div>
         </div>
@@ -44,77 +44,293 @@
                 <div class="col-lg-12">
                     <h1 class="" id="">現場で活躍する先輩たち</h1>
                     <hr class="medium">
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview1">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview2">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview2">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview3">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview3">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview4">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview4">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview5">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview5">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview6">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview6">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview7">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview7">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview8">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview8">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview9">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview9">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview10">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview10">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview11">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
                     </div>
-                    <div class="col-sm-2 margin10 text-center">
-                        <a href="javascript:void(0);">
-                            <img src="http://placehold.jp/300x300.png" class="img-responsive img-center" alt="求人媒体">
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview11">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 margin10 text-center hover14 column">
+                        <a href="javascript:void(0);" type="button" data-toggle="modal" data-target="#interview12">
+                            <figure><img src="http://placehold.jp/800x600.png" class="img-responsive img-center" alt="求人媒体"></figure>
                         </a>
                         <p>LINK</p>
+                    </div>
+                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview12">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="row row-10">
+                                    <div class="col-sm-4">
+                                        <img src="http://placehold.jp/800x600.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h4 class="page-header">name</h4>
+                                        <p>text</p>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

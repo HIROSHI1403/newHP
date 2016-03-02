@@ -108,27 +108,11 @@
                                         <div class="well margin0">
                                             <div class="media">
                                                 <div class="media-left media-top">
-                                                    <i class="media-object fa fa-briefcase fa-fw fa-4x"></i>
-                                                </div>
-                                                <div class="media-body">
-                                                    <h4 class="media-heading text-left page-header">仕事内容</h4>
-                                                    <p class="text-left text-muted">システムエンジニア、プログラマ、ネットワークエンジニア、システム運用オペレータ、ヘルプデスク（一般事務）</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-12 margin0">
-                                        <div class="well margin0">
-                                            <div class="media">
-                                                <div class="media-left media-top">
                                                     <i class="media-object fa fa-money fa-fw fa-4x"></i>
                                                 </div>
                                                 <div class="media-body">
                                                     <h4 class="media-heading text-left page-header">給与</h4>
-                                                    <p class="text-left text-muted">初任給（基本給のみ各手当含まず）</p>
-                                                    <p class="text-left text-muted">専門・高専・短大卒：基本給１７万３千円</p>
-                                                    <p class="text-left text-muted">大卒：基本給１８万３千円</p>
+                                                    <p class="text-left text-muted">経験・年齢・能力等考慮の上、優遇</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -142,7 +126,7 @@
                                                 </div>
                                                 <div class="media-body">
                                                     <h4 class="media-heading text-left page-header">勤務地</h4>
-                                                    <p class="text-left text-muted">東京都内および近郊</p>
+                                                    <p class="text-left text-muted">本社、お客様指定の場所</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -157,7 +141,7 @@
                                                 <div class="media-body">
                                                     <h4 class="media-heading text-left page-header">勤務時間</h4>
                                                     <p class="text-left text-muted">平日9:00〜18:00</p>
-                                                    <p class="text-left text-muted">シフト勤務の場合（例）17:00〜翌日午前10:00</p>
+                                                    <p class="text-left text-muted">（仕事内容により、シフト体制も有り）</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -203,7 +187,7 @@
                                                 </div>
                                                 <div class="media-body">
                                                     <h4 class="media-heading text-left page-header">選考</h4>
-                                                    <p class="text-left text-muted">書類選考<i class="fa fa-caret-right fa-fw"></i>面接<i class="fa fa-caret-right fa-fw"></i>適正テスト</p>
+                                                    <p class="text-left text-muted">書類選考<i class="fa fa-caret-right fa-fw"></i>面接</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -253,7 +237,7 @@
                                                 <div class="media-body">
                                                     <h4 class="media-heading text-left page-header">仕事内容</h4>
                                                     <p class="text-left text-muted">
-                                                        <ol class="text-left">
+                                                        <ol class="text-left text-muted">
                                                             <li>運用技術者：運用オペレーター、ヘルプデスク</li>
                                                             <li>ネットワーク技術者：ネットワーク設計、構築、保守、監視運用</li>
                                                             <li>開発技術者：業務アプリ系、制御系、DB系等</li>
@@ -273,41 +257,27 @@
                                                 <div class="media-body">
                                                     <h4 class="media-heading text-left page-header">資格</h4>
                                                     <p class="text-left text-muted">
-                                                        <ol class="text-left">
-                                                            <li><span class="lead">未経験者可</span class="lead">
+                                                        <ol class="text-left text-muted">
+                                                            <li><u>未経験者可</u>
                                                                 <ul class="list-unstyled">
                                                                     <li>運用オペレーター：汎用機、オープン系運用経験者歓迎</li>
                                                                     <li>ヘルプデスク：コールセンタや営業支援などの経験者歓迎</li>
                                                                 </ul>
                                                             </li>
                                                             <li>
-                                                                <span class="lead">未経験者可</span class="lead">
+                                                                <u>未経験者可</u>
                                                                 <ul class="list-unstyled">
                                                                     <li>ネットワーク技術の知識、Ciscoルータのコンフィグ設計・設定投入、リモートメンテナンス操作等の経験者、CCNA取得者歓迎</li>
                                                                 </ul>
                                                             </li>
                                                             <li>
-                                                                <span class="lead">アプリケーション開発経験者</span class="lead">
+                                                                <u>アプリケーション開発経験者</u>
                                                                 <ul class="list-unstyled">
                                                                     <li>C/C++/Java/XML 他言語経験者、Web系アプリケーション、ORACLEデータベース、チームリーダー経験者歓迎</li>
                                                                 </ul>
                                                             </li>
                                                         </ol>
                                                     </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-12 margin0">
-                                        <div class="well margin0">
-                                            <div class="media">
-                                                <div class="media-left media-top">
-                                                    <i class="media-object fa fa-briefcase fa-fw fa-4x"></i>
-                                                </div>
-                                                <div class="media-body">
-                                                    <h4 class="media-heading text-left page-header">仕事内容</h4>
-                                                    <p class="text-left text-muted">システムエンジニア、プログラマ、ネットワークエンジニア、システム運用オペレータ、ヘルプデスク（一般事務）</p>
                                                 </div>
                                             </div>
                                         </div>
