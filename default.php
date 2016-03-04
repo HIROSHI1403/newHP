@@ -224,12 +224,12 @@ function tmp_footer(){
 							<h3 class="footerh page-header">セキュリティ</h3>
 							<ul class="list-unstyled footerul list-inline contents">
 								<li>
-									<a href="#"><img src="./img/p.jpg" class="img-responsive footer-img" alt="Pマーク　個人情報保護方針"></a>
-									<a  href="#"><i class="fa fa-angle-double-right"></i> 個人情報保護方針</a>
+									<a href="http://privacymark.jp/"><img src="./img/p.jpg" class="img-responsive footer-img" alt="Pマーク　個人情報保護方針"></a>
+									<a href="./privacy.php"><i class="fa fa-angle-double-right"></i> 個人情報保護方針</a>
 								</li>
 								<li>
-									<a href="#"><img src="./img/isms.png" class="img-responsive footer-img" alt="ISMS　情報セキュリティ基本方針"></a>
-									<a  href="#"><i class="fa fa-angle-double-right"></i> 情報セキュリティ方針</a>
+									<a href="./isms.php"><img src="./img/isms.png" class="img-responsive footer-img" alt="ISMS　情報セキュリティ基本方針"></a>
+									<a href="./securitypolicy.php"><i class="fa fa-angle-double-right"></i> 情報セキュリティ方針</a>
 								</li>
 							</ul>
 						</li>
@@ -241,8 +241,8 @@ function tmp_footer(){
 							<h3 class="footerh page-header">親会社（Parent company）</h3>
 							<ul class="list-unstyled footerul list-inline contents">
 								<li>
-									<a href="#"><img src="./img/IIJLogo.jpg" class="img-responsive footer-img" alt="IIJ　株式会社インターネットイニシアティブ"></a>
-									<a  href="#"><i class="fa fa-angle-double-right"></i> Internet Initiative Japan Inc. 株式会社インターネットイニシアティブ</a>
+									<a href="http://www.iij.ad.jp/"><img src="./img/IIJLogo.jpg" class="img-responsive footer-img" alt="IIJ　株式会社インターネットイニシアティブ"></a>
+									<a href="http://www.iij.ad.jp/"><i class="fa fa-angle-double-right"></i> Internet Initiative Japan Inc. 株式会社インターネットイニシアティブ</a>
 								</li>
 							</ul>
 						</li>

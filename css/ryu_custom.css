@@ -361,7 +361,7 @@ footer {
     position: relative;
     display: block;
     width: 100%;
-    height: 100px;
+    height: 120px;
     padding: 0px;
   }
   .event-list > li > time,
@@ -380,15 +380,15 @@ footer {
   .event-list > li > time,
   .event-list > li > img {
     width: 120px;
-    height: 100px;
+    height: 120px;
     padding: 0px;
     margin: 0px;
   }
   .event-list > li > .info {
     position: relative;
-    height: 100px;
+    height: 120px;
     text-align: left;
-    padding-right: 40px;
+    /*padding-right: 40px;*/
   }
   .event-list > li > .info > .title, 
   .event-list > li > .info > .desc {
@@ -416,6 +416,19 @@ footer {
     border-bottom: 1px solid rgba(51, 122, 183, 0.2);
 }
 
+.news-ydm{
+  margin:5px 5px 0px 5px;
+  color:#FFF;
+  background-color: rgb(51, 122, 183);
+}
+.news-ydm p{
+  margin:0px;
+}
+
+.news-body{
+  margin:0px 5px 10px 5px;
+  background-color: rgb(245, 245, 245);
+}
 
 
 /*================================================
@@ -801,6 +814,26 @@ footer .contents{
   transform: skewX(10deg);
   transform-origin: bottom left;
   z-index:1;
+}
+
+/*================================================
+    organizationalchart用
+================================================*/
+
+
+/*================================================
+    news用
+================================================*/
+#news_top_message{
+    width: 100%;
+    padding-top:100px;
+    padding-bottom:100px;
+    color: #FFF;
+    background: url(../img/news.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 /*================================================

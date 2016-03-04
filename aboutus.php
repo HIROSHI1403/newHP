@@ -66,7 +66,8 @@
                         <h4>
                             <strong>組織図</strong>
                         </h4>
-                        <a href="#" class="btn btn-dark btn-lg btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
+                        <a href="./organizationalchart.php" target="_brank" class="btn btn-dark btn-lg btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
+                        <p class="small text-danger">※別タブで開きます。</p>
                     </div>
                 </div>
 

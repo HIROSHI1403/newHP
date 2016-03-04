@@ -124,79 +124,50 @@
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="font-type-1">What's New</h2>
+            <div class="row row-0 text-right">
+                    <h2 class="font-type-1 text-center">What's New</h2>
                     <hr class="medium">
-                    <p class="small font-type-1">ニュース</p>
+                    <p class="small font-type-1 text-center">ニュース</p>
                     <div class="row">
-                        <div class="col-md-12 font-type-1" id="news1">
-                            <ul class="event-list">
-                                <li>
-                                    <time datetime="2015-04-01 0000">
-                                    <span class="day">1</span>
-                                    <span class="month">Apr</span>
-                                    <span class="year">2015</span>
-                                    <!-- <span class="time">12:00 AM</span> -->
-                                    </time>
-                                    <div class="info">
-                                        <p class="title text-muted">会社役員の役職を変更しました。</p>
-                                        <p class="desc small text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="col-sm-12 font-type-1 news-ydm" id="news1">
+                            <p class="text-left"><i class="fa fa-calendar-check-o"></i> 2015/04/01</p>
                         </div>
-                        <div class="col-md-12 font-type-1" id="news2">
-                            <ul class="event-list">
-                                <li>
-                                    <time datetime="2014-12-01 0000">
-                                    <span class="day">1</span>
-                                    <span class="month">Dec</span>
-                                    <span class="year">2014</span>
-                                    <!-- <span class="time">12:00 AM</span> -->
-                                    </time>
-                                    <div class="info">
-                                        <p class="title text-muted">株式会社譲渡に関するお知らせ</p>
-                                        <p class="desc small text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="col-sm-12 font-type-1 news-body" id="news1">
+                            <p class="text-left text-muted">会社役員の役職を変更しました。</p>
+                            <p class="text-left text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
                         </div>
-                        <div class="col-md-12 font-type-1" id="news3">
-                            <ul class="event-list">
-                                <li>
-                                    <time datetime="2014-09-29 0000">
-                                    <span class="day">29</span>
-                                    <span class="month">Sep</span>
-                                    <span class="year">2014</span>
-                                    <!-- <span class="time">12:00 AM</span> -->
-                                    </time>
-                                    <div class="info">
-                                        <p class="title text-muted">プライバシーマークの更新認定を受けました。（第10823037（04）号）</p>
-                                        <p class="desc small text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
-                                    </div>
-                                </li>
-                            </ul>
+
+
+
+                        <div class="col-sm-12 font-type-1 news-ydm" id="news2">
+                            <p class="text-left"><i class="fa fa-calendar-check-o"></i> 2014/12/01</p>
                         </div>
-                        <div class="col-md-12 font-type-1" id="news4">
-                            <ul class="event-list">
-                                <li>
-                                    <time datetime="2012-09-29 0000">
-                                    <span class="day">29</span>
-                                    <span class="month">Sep</span>
-                                    <span class="year">2012</span>
-                                    <!-- <span class="time">12:00 AM</span> -->
-                                    </time>
-                                    <div class="info">
-                                        <p class="title text-muted">プライバシーマークの更新認定を受けました。(第10823037(03)号)</p>
-                                        <p class="desc"></p>
-                                    </div>
-                                </li>
-                            </ul>
+                        <div class="col-sm-12 font-type-1 news-body" id="news2">
+                            <p class="text-left text-muted">株式会社譲渡に関するお知らせ</p>
+                            <p class="text-left text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
                         </div>
-                    </div>
+
+
+
+                        <div class="col-sm-12 font-type-1 news-ydm" id="news3">
+                            <p class="text-left"><i class="fa fa-calendar-check-o"></i> 2014/09/29</p>
+                        </div>
+                        <div class="col-sm-12 font-type-1 news-body" id="news3">
+                            <p class="text-left text-muted">プライバシーマークの更新認定を受けました。（第10823037（04）号）</p>
+                            <p class="text-left text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
+                        </div>
+
+
+
+
+                        <div class="col-sm-12 font-type-1 news-ydm" id="news4">
+                            <p class="text-left"><i class="fa fa-calendar-check-o"></i> 2012/09/29</p>
+                        </div>
+                        <div class="col-sm-12 font-type-1 news-body" id="news4">
+                            <p class="text-left text-muted">プライバシーマークの更新認定を受けました。(第10823037(03)号)</p>
+                        </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark font-type-1 chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> もっと見る</a>
+                    <a href="./news.php" class="btn btn-dark font-type-1 chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> もっと見る</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>

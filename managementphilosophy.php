@@ -12,7 +12,7 @@
     <section id="breadcrumb_nav">
         <!-- <div class="container-fluid"> -->
             <div class="row row-10">
-                <?php breadcrumbs(2,'事業案内','./aboutus.php','経営理念','','',''); ?>
+                <?php breadcrumbs(2,'会社案内','./aboutus.php','経営理念','','',''); ?>
             </div>
         <!-- </div> -->
     </section>
