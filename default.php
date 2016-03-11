@@ -103,6 +103,11 @@ function tmp_footer_js(){
 	<script src="./js/jquery.bgswitcher.js"></script>
 	<script src="./js/jquery.chaffle.min.js"></script>
 	<script src="./js/ryu_custom.js"></script>
+	<script>
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
 EOT;
 }
 
@@ -142,7 +147,7 @@ function defnavbar(){
                 <a href="./recruit_top.php" onclick = $("#menu-close").click(); ><i class="fa fa-thumbs-o-up"></i> 採用情報</a>
             </li>
             <li>
-                <a href="#" onclick = $("#menu-close").click(); ><i class="fa fa-map-signs"></i> アクセス・コンタクト</a>
+                <a href="./access.php" onclick = $("#menu-close").click(); ><i class="fa fa-map-signs"></i> アクセス・コンタクト</a>
             </li>
         </ul>
     </nav>
@@ -290,15 +295,7 @@ function tmp_rec_nav(){
                 </div>
                 <div class="col-xs-2">
                     <div class="list-group">
-                        <a href="./recruit_top.php" class="list-group-item">
-                            <h5 class="list-group-item-heading"><i class="fa fa-caret-square-o-left"></i></h5>
-                            <p class="list-group-item-text small text-muted">採用TOP</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-2">
-                    <div class="list-group">
-                        <a href="./interview_top.php" class="list-group-item">
+                        <a href="./interview_top.php" class="list-group-item" data-toggle="tooltip" data-placement="top" title="インタビューや社員の一日を載せています！">
                             <h5 class="list-group-item-heading"><i class="fa fa-comments-o"></i></h5>
                             <p class="list-group-item-text small text-muted">社員の声</p>
                         </a>
@@ -306,7 +303,15 @@ function tmp_rec_nav(){
                 </div>
                 <div class="col-xs-2">
                     <div class="list-group">
-                        <a href="./new.php" class="list-group-item">
+                        <a href="./traininganddevelopment.php" class="list-group-item" data-toggle="tooltip" data-placement="top" title="弊社の教育や研修について概要を載せています！">
+                            <h5 class="list-group-item-heading"><i class="fa fa-laptop fa-fw"></i></h5>
+                            <p class="list-group-item-text small text-muted">教育研修</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="list-group">
+                        <a href="./new.php" class="list-group-item" data-toggle="tooltip" data-placement="top" title="新卒採用のリンクです！">
                             <h5 class="list-group-item-heading"><i class="fa fa-thumbs-o-up"></i></h5>
                             <p class="list-group-item-text small text-muted">新卒採用</p>
                         </a>
@@ -314,7 +319,7 @@ function tmp_rec_nav(){
                 </div>
                 <div class="col-xs-2">
                     <div class="list-group">
-                        <a href="./midcareer.php" class="list-group-item">
+                        <a href="./midcareer.php" class="list-group-item" data-toggle="tooltip" data-placement="top" title="中途採用のリンクです！">
                             <h5 class="list-group-item-heading"><i class="fa fa-thumbs-up"></i></h5>
                             <p class="list-group-item-text small text-muted">中途採用</p>
                         </a>
@@ -322,7 +327,7 @@ function tmp_rec_nav(){
                 </div>
                 <div class="col-xs-2">
                     <div class="list-group">
-                        <a href="./requirements.php" class="list-group-item">
+                        <a href="./requirements.php" class="list-group-item" data-toggle="tooltip" data-placement="top" title="新卒・中途の募集要項です！">
                             <h5 class="list-group-item-heading"><i class="fa fa-list-alt"></i></h5>
                             <p class="list-group-item-text small text-muted">募集要項</p>
                         </a>
@@ -330,11 +335,16 @@ function tmp_rec_nav(){
                 </div>
                 <div class="col-xs-2">
                     <div class="list-group">
-                        <a href="#" class="list-group-item">
+                        <a href="./access.php" class="list-group-item" data-toggle="tooltip" data-placement="top" title="このホームページからでも応募可能です！">
                             <h5 class="list-group-item-heading"><i class="fa fa-paper-plane-o"></i></h5>
                             <p class="list-group-item-text small text-muted">応募する</p>
                         </a>
                     </div>
+                </div>
+                <div class="col-xs-12">
+	                <a href="./recruit_top.php" class="btn btn-dark btn-xs">
+	                	<i class="fa fa-caret-square-o-left"></i> 採用TOP
+	                </a>
                 </div>
             </div>
         </div>

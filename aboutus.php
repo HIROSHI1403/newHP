@@ -66,8 +66,8 @@
                         <h4>
                             <strong>組織図</strong>
                         </h4>
-                        <a href="./organizationalchart.php" target="_brank" class="btn btn-dark btn-lg btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
-                        <p class="small text-danger">※別タブで開きます。</p>
+                        <a href="./organizationalchart.php" class="btn btn-dark btn-lg btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
+                        <!-- <p class="small text-danger">※別タブで開きます。</p> -->
                     </div>
                 </div>
 
@@ -79,7 +79,7 @@
                         <h4>
                             <strong>沿革</strong>
                         </h4>
-                        <a href="#" class="btn btn-dark btn-lg btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
+                        <a href="./history.php" class="btn btn-dark btn-lg btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@
                         <h4>
                             <strong>会社概要</strong>
                         </h4>
-                        <a href="#" class="btn btn-dark btn-lg btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
+                        <a href="./companyprofile.php" class="btn btn-dark btn-lg btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募・ご連絡ください！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
         </div>
    </aside>
 

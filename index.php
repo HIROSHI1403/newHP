@@ -4,6 +4,7 @@
 <html>
 <head>
 	<?php tmp_header_meta(); ?>
+    <link rel="stylesheet" type="text/css" href="./css/ryu_custom_rec.css">
 </head>
 <body>
 
@@ -175,6 +176,16 @@
         </div>
         <!-- /.container -->
     </section>
+
+    <aside class="rotat">
+        <div class="rotat_inner">
+            <h1 class="" id="rec"><i class="fa fa-phone-square"></i> ENTRY／CONTACT <i class="fa fa-envelope"></i></h1>
+            <P>エントリー・コンタクト</P>
+            <hr class="medium">
+            <p class="small"><p>気になったらすぐに応募・ご連絡ください！</p></p>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
+        </div>
+    </aside>
 
     <!-- Call to Action -->
     <!-- <aside class="call-to-action bg-primary">
