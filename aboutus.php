@@ -10,11 +10,9 @@
 	<?php defnavbar(); ?>
 	<!-- Header -->
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(1,'会社案内','','','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
     <section id="aboutus_top" class="padding-top50">
         <div class="container">
@@ -33,7 +31,8 @@
                 <div class="col-lg-12">
                     <h1 class="" id="">紹介</h1>
                     <hr class="large">
-                    <p class="lead ">社員同士の風通しが良く、みんなが和気あいあいと交流出来る社風です。未経験から経験者まで幅広い人材が、それぞれに適した環境で活躍しています。</p>
+                    <p class="lead ">社員同士の風通しが良く、みんなが和気あいあいと交流出来る社風です。</p>
+                    <p class="lead">未経験から経験者まで幅広い人材が、それぞれに適した環境で活躍しています。</p>
                 </div>
             </div>
         </div>

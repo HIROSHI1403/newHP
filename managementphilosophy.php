@@ -10,12 +10,12 @@
 	<?php defnavbar(); ?>
 	<!-- Header -->
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(2,'会社案内','./aboutus.php','経営理念','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
+
+
     <section id="ceo_top" class="padding-top50">
         <div class="container">
             <div class="row row-0 text-center">
@@ -74,7 +74,7 @@
                             <h3 class="page-header">
                                設立。そして、これから。
                             </h3>
-                            <p class="">これからのIT時代に、システム技術者となる人材を世に送り出そう。」人材開発と教育事業で培った経験を活かし、社員0名から「竜巧社ネットウエア」は設立されました。</p>
+                            <p class="">「これからのIT時代に、システム技術者となる人材を世に送り出そう」人材開発と教育事業で培った経験を活かし、社員0名から「竜巧社ネットウエア」は設立されました。</p>
                             <p>設立当初から今まで一貫して私は経営理念でもある「愛を持って人に接する」ということを自分自身、又社員一同に対して唱えております。その結果、社員1人から始まり、友が友を呼びいつしか組織として大きく成長することができました。</p>
                             <p>今まさに若い社員と経験豊かな社員が共に柔軟な頭脳を持ち合わせ、新鮮且つ斬新なアイデアを形にして行く果てしない可能性と果敢に挑む姿勢で事業活動を盛り上げ、夢を実現しようとしています。</p>
                             <p>当社の経営理念及び社員一丸となった仕事への意欲、ならびにお客様に対しての感謝の気持ちが少しでも皆様に伝わることが出来たなら幸いです。</p>
@@ -106,7 +106,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募・ご連絡ください！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
         </div>
    </aside>
 

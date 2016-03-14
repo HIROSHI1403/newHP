@@ -10,12 +10,11 @@
 	<?php defnavbar(); ?>
 	<!-- Header -->
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(2,'リクルート','./recruit_top.php','新卒採用','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
+
     <section id="new_top" class="padding-top50">
         <div class="container">
             <div class="row row-0 text-center">
@@ -70,7 +69,7 @@
                         <div class="info">
                             <h3 class="page-header text-center">新卒募集要項</h3>
                             <h4 class="">集まれ！若いチカラ！</h4>
-                            <a href="" class="btn-mkr"><i class="fa fa-angle-right"></i> 募集要項へ</a>
+                            <a href="./requirements.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 募集要項へ</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +81,40 @@
                         <div class="info">
                             <h3 class="page-header text-center">インタビュー</h3>
                             <h4 class="">ここで聞ける！先輩の本音！</h4>
-                            <a href="" class="btn-mkr"><i class="fa fa-angle-right"></i> インタビューを見る</a>
+                            <a href="./interview_top.php" class="btn-mkr"><i class="fa fa-angle-right"></i> インタビューを見る</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 margin10">
+                    <div class="box" id="relation3">
+                        <div class="box-icon box-icon-color1">
+                            <span class="fa fa-newspaper-o fa-4x"></span>
+                        </div>
+                        <div class="info">
+                            <h3 class="page-header text-center">各種求人媒体</h3>
+                            <h4 class="">詳細は各リンクをクリックしてください！</h4>
+                            <div class="row row-10">
+                                <div class="col-md-6 margin10 text-center">
+                                    <div align="center">
+                                        <a href="https://job.rikunabi.com/2017/company/top/r163681040/" target="new">
+                                            <img src="https://job.rikunabi.com/2017/static/common/contents/logos/rikunabi/image/rn_logo_b.gif" width="200" height="40" border="0" class="img-responsive img-center">
+                                        </a><br>
+                                        <a href="https://job.rikunabi.com/2017/company/top/r163681040/" target="new">
+                                            リクナビの弊社画面へ
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 margin10 text-center">
+                                    <div align="center">
+                                        <a href="https://job.rikunabi.com/2017/company/entry/r163681040/B001/" target="new">
+                                            <img src="https://job.rikunabi.com/2017/static/common/contents/logos/rikunabi/image/rn_logo_b.gif" width="200" height="40" border="0" class="img-responsive img-center">
+                                        </a><br>
+                                        <a href="https://job.rikunabi.com/2017/company/entry/r163681040/B001/" target="new">
+                                            リクナビの弊社画面へ
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -97,7 +129,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募ください！あなたの第一歩をサポート！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
         </div>
    </aside>
 

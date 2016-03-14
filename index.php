@@ -21,14 +21,11 @@
     </header>
 
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(0,'','','','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
 
-    <!-- About -->
     <section id="about" class="about">
         <div class="container">
             <div class="row">
@@ -40,8 +37,6 @@
         </div>
     </section>
 
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
@@ -99,17 +94,13 @@
                                     <strong>アクセス・コンタクト</strong>
                                 </h4>
                                 <p>各種お問い合わせや、所在地の地図等を掲載しております。</p>
-                                <a href="#" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
+                                <a href="./access.php" class="btn btn-light btn-block chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しく</a>
                             </div>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </section>
 
     <!-- Callout -->
@@ -135,7 +126,7 @@
                         </div>
                         <div class="col-sm-12 font-type-1 news-body" id="news1">
                             <p class="text-left text-muted">会社役員の役職を変更しました。</p>
-                            <p class="text-left text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
+                            <p class="text-left text-muted"><a href="./companyprofile.php" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
                         </div>
 
 
@@ -144,8 +135,8 @@
                             <p class="text-left"><i class="fa fa-calendar-check-o"></i> 2014/12/01</p>
                         </div>
                         <div class="col-sm-12 font-type-1 news-body" id="news2">
-                            <p class="text-left text-muted">株式会社譲渡に関するお知らせ</p>
-                            <p class="text-left text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
+                            <p class="text-left text-muted">株式会社譲渡に関するお知らせ <span class="small text-muted">※PDF・別タブで開きます</span></p>
+                            <p class="text-left text-muted"><a href="./img/aisatsu.pdf" target="_blank" title="株式会社譲渡に関するお知らせ" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
                         </div>
 
 
@@ -155,7 +146,7 @@
                         </div>
                         <div class="col-sm-12 font-type-1 news-body" id="news3">
                             <p class="text-left text-muted">プライバシーマークの更新認定を受けました。（第10823037（04）号）</p>
-                            <p class="text-left text-muted"><a href="#" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
+                            <p class="text-left text-muted"><a href="./pmark.php" class="btn btn-dark btn-xs" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 詳しくはこちら</a></p>
                         </div>
 
 
@@ -167,14 +158,11 @@
                         <div class="col-sm-12 font-type-1 news-body" id="news4">
                             <p class="text-left text-muted">プライバシーマークの更新認定を受けました。(第10823037(03)号)</p>
                         </div>
-                    <!-- /.row (nested) -->
+
                     <a href="./news.php" class="btn btn-dark font-type-1 chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> もっと見る</a>
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </section>
 
     <aside class="rotat">
@@ -187,83 +175,6 @@
         </div>
     </aside>
 
-    <!-- Call to Action -->
-    <!-- <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>SOCIAL</h3>
-                    <hr class="medium">
-                    <p class="small font-type-1">ソーシャルアカウント</p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="box">
-                        <div class="box-icon">
-                            <span class="fa fa-4x fa-twitter"></span>
-                        </div>
-                        <div class="info">
-                            <h4 class="text-center">Follow Us On Twitter</h4>
-                            <a class="twitter-timeline" href="https://twitter.com/HIROSHI_1403" data-widget-id="646960370540675072">@HIROSHI_1403さんのツイート</a>
-                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="box">
-                        <div class="box-icon">
-                            <span class="fa fa-4x fa-facebook"></span>
-                        </div>
-                        <div class="info">
-                            <h4 class="text-center">Find Us On Facebook</h4>
-                            <iframe id="facebook-feed" src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Ffringe&width=500&height=300&show_faces=true&colorscheme=light&stream=true&border_color&header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:300px;" allowTransparency="true"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </aside> -->
-
-    <!-- Map -->
-    <!-- <section id="contact" class="map">
-                <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6481.969377492912!2d139.772358!3d35.677379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be285dd2e8d%3A0xdfe2b11600bb0911!2z77yI5qCq77yJ56uc5ben56S-44ON44OD44OI44Km44Ko44Ki!5e0!3m2!1sja!2sus!4v1455521350021"></iframe>
-            <br />
-            <small>
-                <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6481.969377492912!2d139.772358!3d35.677379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be285dd2e8d%3A0xdfe2b11600bb0911!2z77yI5qCq77yJ56uc5ben56S-44ON44OD44OI44Km44Ko44Ki!5e0!3m2!1sja!2sus!4v1455521350021"></a>
-            </small>
-            </iframe>
-    </section> -->
-
-    <!-- Footer -->
-    <!-- <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
-                    </h4>
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </div>
-    </footer> -->
     <?php tmp_footer(); ?>
 
     <?php tmp_footer_js(); ?>

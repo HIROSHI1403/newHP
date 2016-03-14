@@ -14,12 +14,12 @@
     ?>
 	<!-- Header -->
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(2,'会社案内','./aboutus.php','組織図','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
+
+
     <section id="oc_top" class="padding-top50">
         <div class="container">
             <div class="row row-0 text-center">
@@ -30,17 +30,6 @@
             </div>
         </div>
     </section>
-
-    <!-- <section>
-        <div class="container" id="oc_top_message">
-            <div class="row row-0 text-center">
-                <div class="col-lg-12">
-                    <h1 class="" id="">社内組織図を掲載しています</h1>
-                    <hr class="large">
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <section id="portfolio" class="portfolio">
         <div class="container">
@@ -68,12 +57,12 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募・ご連絡ください！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
         </div>
    </aside>
 
     <?php
-    tmp_footer(); 
+    tmp_footer();
     ?>
 
     <?php tmp_footer_js(); ?>

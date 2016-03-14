@@ -10,11 +10,9 @@
 	<?php defnavbar(); ?>
 	<!-- Header -->
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(1,'事業案内','','','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
     <section id="businessguide_top" class="padding-top50">
         <div class="container">
@@ -46,7 +44,7 @@
             <p class="small text-center">株式会社竜巧社ネットウエアについて</p>
             <div class="row row-10 text-left">
 
-                <div class="col-md-12 no-padding lib-item" data-category="view">
+                <div class="col-md-12 no-padding lib-item" data-category="view" id="b1">
                     <div class="lib-panel">
                         <div class="row row-0 box-shadow">
                             <div class="col-sm-4">
@@ -67,7 +65,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-12 no-padding lib-item" data-category="view">
+                <div class="col-md-12 no-padding lib-item" data-category="view" id="b2">
                     <div class="lib-panel">
                         <div class="row row-0 box-shadow">
                             <div class="col-sm-4">
@@ -88,7 +86,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-12 no-padding lib-item" data-category="view">
+                <div class="col-md-12 no-padding lib-item" data-category="view" id="b3">
                     <div class="lib-panel">
                         <div class="row row-0 box-shadow">
                             <div class="col-sm-4">
@@ -109,7 +107,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-12 no-padding lib-item" data-category="view">
+                <div class="col-md-12 no-padding lib-item" data-category="view" id="b4">
                     <div class="lib-panel">
                         <div class="row row-0 box-shadow">
                             <div class="col-sm-4">
@@ -130,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-12 no-padding lib-item" data-category="view">
+                <div class="col-md-12 no-padding lib-item" data-category="view" id="b5">
                     <div class="lib-panel">
                         <div class="row row-0 box-shadow">
                             <div class="col-sm-4">
@@ -172,7 +170,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募・ご連絡ください！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
         </div>
    </aside>
 

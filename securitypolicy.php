@@ -10,12 +10,12 @@
     <?php defnavbar(); ?>
     <!-- Header -->
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(1,'情報セキュリティ方針','','','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
+
+
     <section id="privacy_top" class="padding-top50">
         <div class="container">
             <div class="row row-0 text-center">
@@ -27,17 +27,6 @@
         </div>
     </section>
 
-    <!-- <section>
-        <div class="container" id="news_top_message">
-            <div class="row row-0 text-center">
-                <div class="col-lg-12">
-                    <h1 class="" id="">新着情報を掲載しています。</h1>
-                    <hr class="large">
-                    <p class="lead ">詳細があればCLICKできます。</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <section id="portfolio" class="portfolio">
         <div class="container">
@@ -85,7 +74,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募・ご連絡ください！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> アクセスページへ！</a>
         </div>
    </aside>
 

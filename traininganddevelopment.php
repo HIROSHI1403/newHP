@@ -10,12 +10,12 @@
 	<?php defnavbar(); ?>
 	<!-- Header -->
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(2,'リクルート','./recruit_top.php','教育研修','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
+
+
     <section id="training_top" class="padding-top50">
         <div class="container">
             <div class="row row-0 text-center">
@@ -177,7 +177,6 @@
                                         </div>
                                     </div>
                                 </li>
-                                
                             </ul>
 
 
@@ -197,7 +196,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募ください！あなたの第一歩をサポート！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
         </div>
    </aside>
 

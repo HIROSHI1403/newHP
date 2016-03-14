@@ -6,6 +6,11 @@
 body{
     font-family: 'logotype' !important;
 }
+
+.text-white-r{
+  background-color:rgba(255,255,255,0.5);
+}
+
 .purple{
     background:purple;
     color:#FFF;

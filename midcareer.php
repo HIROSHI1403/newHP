@@ -10,12 +10,12 @@
 	<?php defnavbar(); ?>
 	<!-- Header -->
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(2,'リクルート','./recruit_top.php','中途採用','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
+
+
     <section id="midcareer_top" class="padding-top50">
         <div class="container">
             <div class="row row-0 text-center">
@@ -70,7 +70,7 @@
                         <div class="info">
                             <h3 class="page-header text-center">中途募集要項</h3>
                             <h4 class="">集まれ！若いチカラ！</h4>
-                            <a href="" class="btn-mkr"><i class="fa fa-angle-right"></i> 募集要項へ</a>
+                            <a href="./requirements.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 募集要項へ</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                         <div class="info">
                             <h3 class="page-header text-center">インタビュー</h3>
                             <h4 class="">ここで聞ける！先輩の本音！</h4>
-                            <a href="" class="btn-mkr"><i class="fa fa-angle-right"></i> インタビューを見る</a>
+                            <a href="./interview_top.php" class="btn-mkr"><i class="fa fa-angle-right"></i> インタビューを見る</a>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募ください！あなたの第一歩をサポート！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
         </div>
    </aside>
 

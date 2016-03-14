@@ -11,34 +11,20 @@
 	<!-- Header -->
     <header id="top" class="header rec_top" style="background-attachment: fixed;">
         <div class="text-vertical-center container-fluid" style="text-align:left;">
-            <h1 class="">RYUKOSHA NETWARE Inc.</h1>
+            <h1 class=""><span class="text-white-r">RYUKOSHA NETWARE Inc.</span></h1>
             <h2 class="type"><del class="red"><strong>RECRUIT</strong></del><span class="purple">採用情報</span><br>
-            Making the <del class="red">未来</del>future.<br><del class="def">自分の未</del><small class="def">自分の未来をつくる。</small>
+                <span class="text-white-r">Making the <del class="red">未来</del>future.<br><del class="def">自分の未</del><small class="def">自分の未来をつくる。</small></span>
             </h2>
             <br>
-            <a href="#recruit_top" class="btn btn-dark btn-lg chaffle" data-lang="en"><i class="fa fa-arrow-down"></i> MORE</a>
+            <a href="#rec_top_links" class="btn btn-dark btn-lg chaffle" data-lang="en"><i class="fa fa-arrow-down"></i> MORE</a>
         </div>
     </header>
-    <!-- <section id="about" class="about">
-        <div class="container-fluid">
-            <div class="row row-0">
-                <div class="col-lg-6 text-center">
-                    <h2 class="font-type-1" id="">「これからのIT時代に、システム技術者となる人材を世に送り出そう」</h2>
-                    <p class="lead font-type-1" id="">どこまでも信頼出来る技術と柔軟性で世界を支えるソリューションを提供し続けます</p>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <h2 class="font-type-1" id="">「これからのIT時代に、システム技術者となる人材を世に送り出そう」</h2>
-                    <p class="lead font-type-1" id="">どこまでも信頼出来る技術と柔軟性で世界を支えるソリューションを提供し続けます</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
+
+
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid text-center"> -->
             <div class="row row-10">
                 <?php breadcrumbs(1,'リクルート','','','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
     <?php tmp_rec_nav(); ?>
     <section>
@@ -50,9 +36,7 @@
                     <p class="">採用情報</p>
                     <p class="small text-left marker_yellow_hoso msg-rotate"><i class="fa fa-arrow-down"></i> インタビューや募集要項を閲覧できます！CLICK！</p>
                     <div>
-                        <!-- Nav tabs -->
                         <ul class="nav nav-tabs" id="recruit-menu" role="tablist">
-                        <!-- <ul class="nav nav-tabs nav-justified" id="recruit-menu" role="tablist"> -->
                             <li class="dropdown active">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 <h4><i class="fa fa-list-ul"></i> MENU <small><メニュー></small> <span class="caret"></span></h4>
@@ -67,13 +51,7 @@
                                     <li role="presentation"><a href="#requirements" aria-controls="requirements" role="tab" data-toggle="tab"><i class="fa fa-list-alt fa-fw"></i> 各種（新卒・中途）募集要項</a></li>
                                 </ul>
                             </li>
-                            <!-- <li role="presentation"><a href="#message" aria-controls="message" role="tab" data-toggle="tab">メッセージ</a></li>
-                            <li role="presentation"><a href="#new" aria-controls="new" role="tab" data-toggle="tab">新卒</a></li>
-                            <li role="presentation"><a href="#career" aria-controls="career" role="tab" data-toggle="tab">中途</a></li>
-                            <li role="presentation" class="active"><a href="#top-messages" aria-controls="top-messages" role="tab" data-toggle="tab">代表メッセージ</a></li>
-                            <li role="presentation"><a href="#interview" aria-controls="interview" role="tab" data-toggle="tab">インタビュー</a></li> -->
                         </ul>
-                        <!-- Tab panes -->
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade active in" id="message" style="margin-top:10px;">
                                 <div class="row row-10">
@@ -115,13 +93,11 @@
                                     <div class="col-md-6 margin10">
                                         <img src="./img/ceo2.jpg" alt="竜巧社ネットウエア井上雅之社長" class="img-responsive">
                                         <div class="carousel-caption">
-                                            <!-- <h1></h1> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 margin10">
                                         <img src="./img/ceo.jpg" alt="竜巧社ネットウエア井上雅之社長" class="img-responsive">
                                         <div class="carousel-caption">
-                                            <!-- <h1></h1> -->
                                         </div>
                                     </div>
                                     <div class="col-md-6 margin10">
@@ -130,7 +106,7 @@
                                                 <h3 class="page-header">
                                                    設立。そして、これから。
                                                 </h3>
-                                                <p class="">これからのIT時代に、システム技術者となる人材を世に送り出そう。」人材開発と教育事業で培った経験を活かし、社員0名から「竜巧社ネットウエア」は設立されました。</p>
+                                                <p class="">「これからのIT時代に、システム技術者となる人材を世に送り出そう」人材開発と教育事業で培った経験を活かし、社員0名から「竜巧社ネットウエア」は設立されました。</p>
                                                 <p>設立当初から今まで一貫して私は経営理念でもある「愛を持って人に接する」ということを自分自身、又社員一同に対して唱えております。その結果、社員1人から始まり、友が友を呼びいつしか組織として大きく成長することができました。</p>
                                                 <p>今まさに若い社員と経験豊かな社員が共に柔軟な頭脳を持ち合わせ、新鮮且つ斬新なアイデアを形にして行く果てしない可能性と果敢に挑む姿勢で事業活動を盛り上げ、夢を実現しようとしています。</p>
                                                 <p>当社の経営理念及び社員一丸となった仕事への意欲、ならびにお客様に対しての感謝の気持ちが少しでも皆様に伝わることが出来たなら幸いです。</p>
@@ -162,7 +138,7 @@
                                             </div>
                                         </div>
                                         <h3 class="page-header text-left"><i class="fa fa-comments-o"></i> 詳しくはこちらのリンクより！</h3>
-                                        <p class=""><a href="./Interview_top.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
+                                        <p class=""><a href="./interview_top.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -187,7 +163,7 @@
                                             </div>
                                         </div>
                                         <h3 class="page-header text-left"><i class="fa fa-external-link"></i> 詳しくはこちらのリンクより！</h3>
-                                        <p class=""><a href="javascript:void(0);" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
+                                        <p class=""><a href="./traininganddevelopment.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +188,7 @@
                                             </div>
                                         </div>
                                         <h3 class="page-header text-left"><i class="fa fa-external-link"></i> 詳しくはこちらのリンクより！</h3>
-                                        <p class=""><a href="javascript:void(0);" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
+                                        <p class=""><a href="./new.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -237,7 +213,7 @@
                                             </div>
                                         </div>
                                         <h3 class="page-header text-left"><i class="fa fa-external-link"></i> 詳しくはこちらのリンクより！</h3>
-                                        <p class=""><a href="javascript:void(0);" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
+                                        <p class=""><a href="./midcareer.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳しく見てみる</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -253,7 +229,7 @@
                                             <div class="info">
                                                 <h3 class="page-header text-center">新卒採用</h3>
                                                 <h4 class="">集まれ！若いチカラ！</h4>
-                                                <a href="" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳細を確認する</a>
+                                                <a href="./requirements.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳細を確認する</a>
                                             </div>
                                         </div>
                                     </div>
@@ -265,7 +241,7 @@
                                             <div class="info">
                                                 <h3 class="page-header text-center">中途採用</h3>
                                                 <h4 class="">経験・未経験問いません！</h4>
-                                                <a href="" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳細を確認する</a>
+                                                <a href="./requirements.php" class="btn-mkr"><i class="fa fa-angle-right"></i> 詳細を確認する</a>
                                             </div>
                                         </div>
                                     </div>
@@ -279,20 +255,24 @@
                                                 <h4 class="">詳細は各リンクをクリックしてください！</h4>
                                                 <div class="row row-10">
                                                     <div class="col-md-6 margin10 text-center">
-                                                        <img src="http://placehold.jp/500x150.png" class="img-responsive img-center" alt="求人媒体">
-                                                        <p>LINK</p>
+                                                        <div align="center">
+                                                            <a href="https://job.rikunabi.com/2017/company/top/r163681040/" target="new">
+                                                                <img src="https://job.rikunabi.com/2017/static/common/contents/logos/rikunabi/image/rn_logo_b.gif" width="200" height="40" border="0" class="img-responsive img-center">
+                                                            </a><br>
+                                                            <a href="https://job.rikunabi.com/2017/company/top/r163681040/" target="new" style="font-size:0.5em;">
+                                                                リクナビの弊社画面へ
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                     <div class="col-md-6 margin10 text-center">
-                                                        <img src="http://placehold.jp/500x150.png" class="img-responsive img-center" alt="求人媒体">
-                                                        <p>LINK</p>
-                                                    </div>
-                                                    <div class="col-md-6 margin10 text-center">
-                                                        <img src="http://placehold.jp/500x150.png" class="img-responsive img-center" alt="求人媒体">
-                                                        <p>LINK</p>
-                                                    </div>
-                                                    <div class="col-md-6 margin10 text-center">
-                                                        <img src="http://placehold.jp/500x150.png" class="img-responsive img-center" alt="求人媒体">
-                                                        <p>LINK</p>
+                                                        <div align="center">
+                                                            <a href="https://job.rikunabi.com/2017/company/entry/r163681040/B001/" target="new">
+                                                                <img src="https://job.rikunabi.com/2017/static/common/contents/logos/rikunabi/image/rn_logo_b.gif" width="200" height="40" border="0" class="img-responsive img-center">
+                                                            </a><br>
+                                                            <a href="https://job.rikunabi.com/2017/company/entry/r163681040/B001/" target="new" style="font-size:0.5em;">
+                                                                リクナビの弊社画面へ
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -313,7 +293,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募ください！あなたの第一歩をサポート！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
         </div>
    </aside>
 
@@ -332,7 +312,7 @@
         });
 
         $(".rec_top").bgswitcher({
-            images: ['./img/rectop.jpg', 1, 2],
+            images: ['./img/rectop.jpg', 1, 3],
             effect: "drop",
         });
 

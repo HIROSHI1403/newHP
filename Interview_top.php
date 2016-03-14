@@ -62,7 +62,7 @@
                                         <p>ざっくりで言うと基盤開発。細かく言うと、とあるシステムのHULFT（ハルフト）の導入から設計構築。現行のシステムもあるので、そこの保守も。本当にHULFTは全般というイメージですね！</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> 最近仕事であったいいことってなんですか？</strong></u></p>
-                                        <p>えぇっと、最近のこの業務で言えば、まあ重い仕事が片付いたかなと。なのでその重い仕事が終わるまでは稼動もカツカツで突発的な仕事というか、ヒヤリングというか業務からの質問も手一杯とういう状況もすごいあるんですけど、一個ずつ片付けて…子育てと一緒っすね！設計導入やるにあたって、本番稼動した後って自動化で動かしたりするんですけど、その自動化。言ってしまえば、他の領域というか、みんなのタスク申請も面倒見るところまで！まぁやればやるほど知識は付くんで、どんどんどんどん。</p>
+                                        <p>えぇっと、最近のこの業務で言えば、まあ重い仕事が片付いたかなと。なのでその重い仕事が終わるまでは稼動もカツカツで突発的な仕事というか、ヒアリングというか業務からの質問も手一杯とういう状況もすごいあるんですけど、一個ずつ片付けて…子育てと一緒っすね！設計導入やるにあたって、本番稼動した後って自動化で動かしたりするんですけど、その自動化。言ってしまえば、他の領域というか、みんなのタスク申請も面倒見るところまで！まぁやればやるほど知識は付くんで、どんどんどんどん。</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> うちの会社ってどうですか？</strong></u></p>
                                         <p>しっかり安定する感じです！伝わります？（笑）</p>
@@ -74,7 +74,7 @@
                                         <p>入社してからでいうと、そもそも人前で話すとか不得意な人間だったので、新卒の講習だったり旅行委員会だったり、多少は態勢はついてきてるかな？勉強中です！</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> 求めるリーダー像とか人物像を教えて下さい。</strong></u></p>
-                                        <p>本来では。。。本来というか自分個人の考えだけでいうと、一番役が高い人がぶっ倒れるまでやればいいかな。背中を見せるわけじゃないですけど、それで下が付いてきてくれたら一番いいなと思うんだけどそれはちょっとなかなか難しいので、先輩のように言えば言うだけメンバーの士気を上がるみたいに能力がほしい！</p>
+                                        <p>本来では。。。本来というか自分個人の考えだけでいうと、一番役が高い人がぶっ倒れるまでやればいいかな。背中を見せるわけじゃないですけど、それで下が付いてきてくれたら一番いいなと思うんだけどそれはちょっとなかなか難しいので、先輩のように言えば言うだけメンバーの士気が上がるみたいな能力がほしい！</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> 入ってくるみんなに一言</strong></u></p>
                                         <p>そうだな。いろいろあるけど苦手分野にチャレンジしてほしいかな、一番嫌なことをやって欲しいと思う！</p>
@@ -151,7 +151,7 @@
                                         <p>実際に、開発の仕事をするにあたって、ほぼほぼ自分で調べてやらなければいけないことが多々あって、その中で運用マニュアルであれば自分で作成した物が作成者として名前が残るようなところってのは開発をやらないと味わえないものだと思います。</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> うちの会社ってどうですか？</strong></u></p>
-                                        <p>上司との距離が近いのかなと。例えばお客様。別のお客様方でみてみるとほぼほぼ、例えば部長であったり社長であったりそういう人というのは自分、一般…僕は役職者ですけど、そういう一般人の名前は覚って覚えてない、ほとんど会ったことないっての方なんですが社長にあった時に名前で呼ばれるってのは結構他の会社では味わえない所なのかなと</p>
+                                        <p>上司との距離が近いのかなと。例えばお客様。別のお客様方でみてみるとほぼほぼ、例えば部長であったり社長であったりそういう人というのは自分、一般…僕は役職者ですけど、そういう一般人の名前は覚えてない、ほとんど会ったことないって方なんですが社長にあった時に名前で呼ばれるってのは結構他の会社では味わえない所なのかなと</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> 入社して、何が一番変化しましたか？</strong></u></p>
                                         <p>最初はやはり仕事にするにしても、なんにするにしても個人で仕事してる感覚だったんですけど入社して十年、十年ちょい経過して全体を見るというかうちの会社の一員として働いているいう意識の変化というのは一番変わった所かなと思います</p>
@@ -160,7 +160,7 @@
                                         <p>今と比べるとあまり人の意見を取り入れられない、自分がこう思ったらそれが正しいと思ってるというところありましたけど年を取るにつれて…（笑）</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> 求めるリーダー像とか人物像を教えて下さい。</strong></u></p>
-                                        <p>ある人と一緒に仕事をする機会がありまして、沢山見習う部分がありました。その人のおかげで考え方が変ったりする部分があったので、自分自身もそういう他のメンバーに影響を与えられるような形にっていければいいなって思います！</p>
+                                        <p>ある人と一緒に仕事をする機会がありまして、沢山見習う部分がありました。その人のおかげで考え方が変ったりする部分があったので、自分自身もそういう他のメンバーに影響を与えられるような形になっていければいいなって思います！</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> 入ってくるみんなに一言</strong></u></p>
                                         <p>この会社のメンバーというか僕、結構いろんなの会社のメンバーと一緒に仕事してきたんですけどもやっぱりうちの会社の人ってみんないい人ばかりなので、その環境で仕事出来るってのはいいことだと思います！いいことって掘り下げるといろいろありますけど、例えば奢ってもらえるとかでもいいですし（笑）、あのいい話聞けるとか、仕事のアドバイスをくれるとかみんな優しいです。仕事のフォローも大事ですけど、仕事だけでなくプライベートでも会ったりそういう付き合いができる人は多いと思うので、凄いメリットだと思います。</p>
@@ -203,7 +203,7 @@
                                         <p>昔をみて、入社当時の自分を見て、もっともっとそのままでいれば良かったなと、思ってます。そのままの自分で性格面でいて欲しかったです（笑）いい意味でも悪い意味でも慎重になってるかもしれません（笑）</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> 求めるリーダー像とか人物像を教えて下さい。</strong></u></p>
-                                        <p>すでに社内にいます！自分の中の感想は兄貴ですね。あえて言うなら、普段は優しい感じで教えてくれて、怒るときはしかっり怒って、けどいざという時には引っ張ってくれそう。見捨てない人だと思いますね。</p>
+                                        <p>すでに社内にいます！自分の中の感想は兄貴ですね。あえて言うなら、普段は優しい感じで教えてくれて、怒るときはしっかり怒って、けどいざという時には引っ張ってくれそう。見捨てない人だと思いますね。</p>
                                     </div>
                                     <div class="col-sm-1">
                                         <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
@@ -253,7 +253,7 @@
                                     <div class="col-sm-7">
                                         <h4 class="page-header">Ａ・Ｔ</h4>
                                         <p><u><strong><i class="fa fa-question-circle"></i> 今やっているお仕事を教えて下さい。</strong></u></p>
-                                        <p>僕の場合は機器関連です。見積もりはベンダーさん取ってくれるんですけど、そこから電源の見積もりとかフロアの設置までですね、あとは上のレイヤー層のOS・ミドルウェアとかです。あとは開発保守。自分がいるところは、開発だけじゃなくて保守も入ってるんで、本番に運用部の方に本番稼働カットオーバー・リリースした後の稼働ですかね。ステーション替えが起きたら自分のところに連絡きますから、その対応等ですね。なんで機器全般のハードエラーだったら実機を代えないといけないので調整とかもしますね！</p>
+                                        <p>僕の場合は機器関連です。見積もりはベンダーさんベンダーが取ってくれるんですけど、そこから電源の見積もりとかフロアの設置までですね、あとは上のレイヤー層のOS・ミドルウェアとかです。あとは開発保守。自分がいるところは、開発だけじゃなくて保守も入ってるんで、本番に運用部の方に本番稼働カットオーバー・リリースした後の稼働ですかね。ステーション替えが起きたら自分のところに連絡きますから、その対応等ですね。なんで機器全般のハードエラーだったら実機を代えないといけないので調整とかもしますね！</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> 大変ですか？</strong></u></p>
                                         <p>いやぁ最初入った時はちょっとつらかったですね。ITだからやっぱりルールって細かいので。僕セキュリティーガチガチ堅めてるの嫌いなんですよ（笑）しっかり守りますけどね！自分は仮想基盤の方からきてるんで、現場に来た当初は仲間に電話して「もうキツいっす。」「無理っすわ」っていうのをちょいちょい電話しちゃいましたね。でもそんなことも言い合える仲間大切ですよ！髪の毛ぬけるし、白髪多くなるしそれは嫌っすね！冗談ですけど（笑）、最近は業務の色というか１年もいればしっかり染まってくるんで、いい環境と家からも近いのでまあ良いかなって最近思ってますね！</p>
@@ -268,7 +268,7 @@
                                         <p>変化は人と話すようになりましたね。話したりはしてたんですけど裾野が広がるというか、自分の話し方、この人にはこう言う話し方するとか、この人はこうだなという感じ。うちの会社って色んな経験してる人が入ってきてるので、本当にITじゃない方面からはいってる人のほうが僕が入った時多くて、僕もそうなんですけどで、その人たちが居たので色々話し方変わったなって思ってます。僕の前居た会社って六本木のIT会社だったんですけどそこはガッチガチのITでそこまで話さないし横の繋がりがなくて。</p>
 
                                         <p><u><strong><i class="fa fa-question-circle"></i> 求めるリーダー像とか人物像を教えて下さい。</strong></u></p>
-                                        <p>あるチームで問題が起きてトップまでエスカレーションして頼ってばっかりじゃなく自分でしっかり解決できるリーダー角を育てられるリーダーみたいな感じに僕はなりたいです！</p>
+                                        <p>あるチームで問題が起きてトップまでエスカレーションして頼ってばっかりじゃなく自分でしっかり解決できるリーダー格を育てられるリーダーみたいな感じに僕はなりたいです！</p>
 
                                     </div>
                                     <div class="col-sm-1">
@@ -285,150 +285,6 @@
 
 
 
-                    <!-- <div class="col-sm-4 col-md-2 margin10 text-center hover14 column">
-                        <a href="#" type="button" data-toggle="modal" data-target="#interview7">
-                            <figure><img src="http://fakeimg.pl/350x200/?text=Coming Soon" class="img-responsive img-center" alt="求人媒体"></figure>
-                        </a>
-                        <p>LINK</p>
-                    </div>
-                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview7">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="row row-10">
-                                    <div class="col-sm-4">
-                                        <img src="http://fakeimg.pl/350x200/?text=Coming Soon" alt="" class="img-responsive">
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <h4 class="page-header">name</h4>
-                                        <p>text</p>
-                                    </div>
-                                    <div class="col-sm-1">
-                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-2 margin10 text-center hover14 column">
-                        <a href="#" type="button" data-toggle="modal" data-target="#interview8">
-                            <figure><img src="http://fakeimg.pl/350x200/?text=Coming Soon" class="img-responsive img-center" alt="求人媒体"></figure>
-                        </a>
-                        <p>LINK</p>
-                    </div>
-                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview8">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="row row-10">
-                                    <div class="col-sm-4">
-                                        <img src="http://fakeimg.pl/350x200/?text=Coming Soon" alt="" class="img-responsive">
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <h4 class="page-header">name</h4>
-                                        <p>text</p>
-                                    </div>
-                                    <div class="col-sm-1">
-                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-2 margin10 text-center hover14 column">
-                        <a href="#" type="button" data-toggle="modal" data-target="#interview9">
-                            <figure><img src="http://fakeimg.pl/350x200/?text=Coming Soon" class="img-responsive img-center" alt="求人媒体"></figure>
-                        </a>
-                        <p>LINK</p>
-                    </div>
-                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview9">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="row row-10">
-                                    <div class="col-sm-4">
-                                        <img src="http://fakeimg.pl/350x200/?text=Coming Soon" alt="" class="img-responsive">
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <h4 class="page-header">name</h4>
-                                        <p>text</p>
-                                    </div>
-                                    <div class="col-sm-1">
-                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-2 margin10 text-center hover14 column">
-                        <a href="#" type="button" data-toggle="modal" data-target="#interview10">
-                            <figure><img src="http://fakeimg.pl/350x200/?text=Coming Soon" class="img-responsive img-center" alt="求人媒体"></figure>
-                        </a>
-                        <p>LINK</p>
-                    </div>
-                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview10">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="row row-10">
-                                    <div class="col-sm-4">
-                                        <img src="http://fakeimg.pl/350x200/?text=Coming Soon" alt="" class="img-responsive">
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <h4 class="page-header">name</h4>
-                                        <p>text</p>
-                                    </div>
-                                    <div class="col-sm-1">
-                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-2 margin10 text-center hover14 column">
-                        <a href="#" type="button" data-toggle="modal" data-target="#interview11">
-                            <figure><img src="http://fakeimg.pl/350x200/?text=Coming Soon" class="img-responsive img-center" alt="求人媒体"></figure>
-                        </a>
-                        <p>LINK</p>
-                    </div>
-                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview11">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="row row-10">
-                                    <div class="col-sm-4">
-                                        <img src="http://fakeimg.pl/350x200/?text=Coming Soon" alt="" class="img-responsive">
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <h4 class="page-header">name</h4>
-                                        <p>text</p>
-                                    </div>
-                                    <div class="col-sm-1">
-                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-2 margin10 text-center hover14 column">
-                        <a href="#" type="button" data-toggle="modal" data-target="#interview12">
-                            <figure><img src="http://fakeimg.pl/350x200/?text=Coming Soon" class="img-responsive img-center" alt="求人媒体"></figure>
-                        </a>
-                        <p>LINK</p>
-                    </div>
-                    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="interview12">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="row row-10">
-                                    <div class="col-sm-4">
-                                        <img src="http://fakeimg.pl/350x200/?text=Coming Soon" alt="" class="img-responsive">
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <h4 class="page-header">name</h4>
-                                        <p>text</p>
-                                    </div>
-                                    <div class="col-sm-1">
-                                        <button type="button" class="btn btn-link text-danger" data-dismiss="modal"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -698,7 +554,6 @@
                 </div>
 
                 <div class="col-lg-12">
-                    
                 </div>
 
 
@@ -955,7 +810,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>気になったらすぐに応募ください！あなたの第一歩をサポート！</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
+            <a href="./access.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> 今すぐ応募ページへ！</a>
         </div>
    </aside>
 

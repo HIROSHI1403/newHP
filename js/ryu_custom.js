@@ -31,7 +31,7 @@
     // });
 
     $(".header_top").bgswitcher({
-        images: ['./img/top.jpg', 1, 5],
+        images: ['./img/top.jpg', 2, 5],
         effect: "clip",
     });
 

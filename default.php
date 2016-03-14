@@ -139,12 +139,32 @@ function defnavbar(){
             </li>
             <li>
                 <a href="./aboutus.php" onclick = $("#menu-close").click(); ><i class="fa fa-leanpub"></i> 会社案内</a>
+                <ul class="list-unstyled">
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./managementphilosophy.php"><i class="fa fa-caret-right"></i> 経営理念</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./organizationalchart.php"><i class="fa fa-caret-right"></i> 組織図</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./history.php"><i class="fa fa-caret-right"></i> 沿革</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./companyprofile.php"><i class="fa fa-caret-right"></i> 会社概要</a></li>
+                </ul>
             </li>
             <li>
                 <a href="./businessguide.php" onclick = $("#menu-close").click(); ><i class="fa fa-list-alt"></i> 事業案内</a>
+                <ul class="list-unstyled">
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./businessguide.php#b1"><i class="fa fa-caret-right"></i> システム基盤部</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./businessguide.php#b2"><i class="fa fa-caret-right"></i> システム開発部</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./businessguide.php#b3"><i class="fa fa-caret-right"></i> システム運用部</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./businessguide.php#b4"><i class="fa fa-caret-right"></i> サービスサポート部</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./businessguide.php#b5"><i class="fa fa-caret-right"></i> 営業部</a></li>
+                </ul>
             </li>
             <li>
                 <a href="./recruit_top.php" onclick = $("#menu-close").click(); ><i class="fa fa-thumbs-o-up"></i> 採用情報</a>
+                <ul class="list-unstyled">
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./interview_top.php"><i class="fa fa-caret-right"></i> 社員の声</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./traininganddevelopment.php"><i class="fa fa-caret-right"></i> 教育研修</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./new.php"><i class="fa fa-caret-right"></i> 新卒採用</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./midcareer.php"><i class="fa fa-caret-right"></i> 中途採用</a></li>
+                    <li style="text-indent:3em; color:#999;"><a onclick=$("#menu-close").click(); href="./requirements.php"><i class="fa fa-caret-right"></i> 募集要項</a></li>
+                </ul>
             </li>
             <li>
                 <a href="./access.php" onclick = $("#menu-close").click(); ><i class="fa fa-map-signs"></i> アクセス・コンタクト</a>
@@ -171,10 +191,10 @@ function tmp_footer(){
 						<li class="">
 							<h3 class="footerh page-header">会社案内</h3>
 							<ul class="list-unstyled footerul contents">
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 経営理念</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 組織図</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 沿革</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 会社案内</a></li>
+								<li><a  href="./managementphilosophy.php"><i class="fa fa-angle-double-right"></i> 経営理念</a></li>
+								<li><a  href="./organizationalchart.php"><i class="fa fa-angle-double-right"></i> 組織図</a></li>
+								<li><a  href="./history.php"><i class="fa fa-angle-double-right"></i> 沿革</a></li>
+								<li><a  href="./companyprofile.php"><i class="fa fa-angle-double-right"></i> 会社案内</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -184,10 +204,11 @@ function tmp_footer(){
 						<li class="">
 							<h3 class="footerh page-header">事業案内</h3>
 							<ul class="list-unstyled footerul contents">
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> システム基盤部</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> システム開発部</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> システム運用部</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> サービスサポート部</a></li>
+								<li><a  href="./businessguide.php#b1"><i class="fa fa-angle-double-right"></i> システム基盤部</a></li>
+								<li><a  href="./businessguide.php#b2"><i class="fa fa-angle-double-right"></i> システム開発部</a></li>
+								<li><a  href="./businessguide.php#b3"><i class="fa fa-angle-double-right"></i> システム運用部</a></li>
+								<li><a  href="./businessguide.php#b4"><i class="fa fa-angle-double-right"></i> サービスサポート部</a></li>
+								<li><a  href="./businessguide.php#b5"><i class="fa fa-angle-double-right"></i> 営業部</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -197,13 +218,11 @@ function tmp_footer(){
 						<li class="">
 							<h3 class="footerh page-header">採用案内</h3>
 							<ul class="list-unstyled footerul contents">
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 採用トップ</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 新卒採用</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 中途採用</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> トップメッセージ</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> インタビュー</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 募集要項</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 特集・特記事項</a></li>
+								<li><a  href="./recruit_top.php"><i class="fa fa-angle-double-right"></i> 採用トップ</a></li>
+								<li><a  href="./new.php"><i class="fa fa-angle-double-right"></i> 新卒採用</a></li>
+								<li><a  href="./midcareer.php"><i class="fa fa-angle-double-right"></i> 中途採用</a></li>
+								<li><a  href="./interview_top.php"><i class="fa fa-angle-double-right"></i> インタビュー</a></li>
+								<li><a  href="./requirements.php"><i class="fa fa-angle-double-right"></i> 各募集要項</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -213,11 +232,11 @@ function tmp_footer(){
 						<li class="">
 							<h3 class="footerh page-header">アクセス・コンタクト</h3>
 							<ul class="list-unstyled footerul contents">
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> お問い合わせ</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> エントリー（応募）</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> メール（mail）</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 電話（TEL）</a></li>
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 所在地・地図</a></li>
+								<li><a  href="./access.php"><i class="fa fa-angle-double-right"></i> お問い合わせ</a></li>
+								<li><a  href="./access.php"><i class="fa fa-angle-double-right"></i> エントリー（応募）</a></li>
+								<li><a  href="./access.php"><i class="fa fa-angle-double-right"></i> メール（mail）</a></li>
+								<li><a  href="./access.php"><i class="fa fa-angle-double-right"></i> 電話（TEL）</a></li>
+								<li><a  href="./access.php"><i class="fa fa-angle-double-right"></i> 所在地・地図</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -258,7 +277,7 @@ function tmp_footer(){
 						<li class="">
 							<h3 class="footerh page-header"><i class="fa fa-lock"></i> 社員限定</h3>
 							<ul class="list-unstyled footerul contents">
-								<li><a  href="#"><i class="fa fa-angle-double-right"></i> 社員限定サイト</a></li>
+								<li><a href="./staff_only/login.php/"><i class="fa fa-angle-double-right"></i> 社員限定サイト</a></li>
 							</ul>
 						</li>
 					</ul>

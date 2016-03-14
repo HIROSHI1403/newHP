@@ -10,12 +10,12 @@
 	<?php defnavbar(); ?>
 	<!-- Header -->
     <section id="breadcrumb_nav">
-        <!-- <div class="container-fluid"> -->
             <div class="row row-10">
                 <?php breadcrumbs(1,'アクセス','','','','',''); ?>
             </div>
-        <!-- </div> -->
     </section>
+
+
     <section id="access_top" class="padding-top50">
         <div class="container">
             <div class="row row-0 text-center">
@@ -43,42 +43,53 @@
             <div class="row row-20 text-right">
 
                 <div class="col-sm-6">
-                    <h2 class="font-type-1 text-center">CONTACT・APPLY</h2>
+                    <h2 class="font-type-1 text-center"><i class="fa fa-check-square-o"></i> CONTACT・APPLY</h2>
                     <hr class="medium">
                     <p class="lead font-type-1 text-center">お問い合わせ・新卒中途応募</p>
                     <p class="samll font-type-1 text-center text-muted">様々なお問い合わせはこちら！</p>
-                    <a href="#" class="btn btn-dark btn-lg btn-block"><i class="fa fa-paper-plane-o"></i> お問い合わせ・応募する</a>
+                    <a href="./checkpoint.php" class="btn btn-dark btn-lg btn-block"><i class="fa fa-paper-plane-o"></i> お問い合わせ・応募する</a>
                 </div>
                 <div class="col-sm-6">
-                    <h2 class="font-type-1 text-center">ACCESS</h2>
+                    <h2 class="font-type-1 text-center"><i class="fa fa-compress"></i> ACCESS</h2>
                     <hr class="medium">
                     <p class="lead font-type-1 text-center">お問い合わせ先</p>
-                    <p class="samll font-type-1 text-center text-muted">直接お問い合わせしていただけます</p>
+                    <!-- <p class="samll font-type-1 text-center text-muted">直接お問い合わせしていただけます</p> -->
                     <table class="table table-hover table-responsive">
                         <tbody class="text-left">
                             <tr>
-                                <th>電話</th>
+                                <th nowrap>電話</th>
                                 <td><i class="fa fa-phone fa-fw"></i></td>
                                 <th><a class="btn btn-dark btn-block btn-xs" href="tel:0351590600">03-5159-0600／採用担当：尾身（おみ）</a></th>
                             </tr>
                             <tr>
-                                <td>メール</td>
+                                <td nowrap>メール</td>
                                 <td><i class="fa fa-envelope-o fa-fw"></i></td>
-                                <td><a class="btn btn-dark btn-block btn-xs" href="meilto:info@ryukoshanw.co.jp">info@ryukoshanw.co.jp</a></td>
+                                <td><a class="btn btn-dark btn-block btn-xs" href="mailto:info@ryukoshanw.co.jp">info@ryukoshanw.co.jp</a></td>
+                            </tr>
+                            <tr>
+                                <td nowrap>注意</td>
+                                <td><i class="fa fa-fw fa-exclamation-triangle"></i></td>
+                                <td class="text-red">メールフィルタ・迷惑メール処理等でメールが届かない可能性がございます。（特にキャリアメールご利用の方）ドメイン「@ryukoshanw.co.jp」をフィルタから解除・設定をお願いいたします。</td>
                             </tr>
                         </tbody>
                     </table>
-                    
                 </div>
-                <div class="col-sm-12">
-                    
-                </div>
+                <div class="col-sm-12"></div>
             </div>
         </div>
     </section>
 
     <section id="contact" class="map">
-            <h1 class="page-header text-center" id="">MAP</h1>
+            <h2 class="text-center" id=""><i class="fa fa-location-arrow"></i> MAP</h2>
+            <hr class="medium">
+            <div class="container">
+                <p class="text-center">
+                    <a class="btn btn-dark btn-block" target="_blank" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6481.969377492912!2d139.772358!3d35.677379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be285dd2e8d%3A0xdfe2b11600bb0911!2z77yI5qCq77yJ56uc5ben56S-44ON44OD44OI44Km44Ko44Ki!5e0!3m2!1sja!2sus!4v1455521350021"><i class="fa fa-map-marker"></i> Google Mapへ</a>
+                </p>
+                <p class="text-center">
+                    〒104-0031 東京都中央区京橋1丁目14-9依田忠ビル7F
+                </p>
+            </div>
                 <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="pointer-events:none;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6481.969377492912!2d139.772358!3d35.677379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be285dd2e8d%3A0xdfe2b11600bb0911!2z77yI5qCq77yJ56uc5ben56S-44ON44OD44OI44Km44Ko44Ki!5e0!3m2!1sja!2sus!4v1455521350021"></iframe>
             <br />
             <small>
@@ -86,7 +97,7 @@
             </small>
     </section>
 
-    <aside class="callout2">
+    <aside class="callout2 margintop20">
         <div class="text-vertical-center">
             <h4 class="font-type-1" id="rec"><i class="fa fa-thumbs-o-up"></i></h4>
             <h4>RECRUIT</h4>
@@ -102,7 +113,7 @@
             <P>エントリー・コンタクト</P>
             <hr class="medium">
             <p class="small"><p>フォームへ移動します。</p></p>
-            <a href="javascript:(0);" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
+            <a href="./checkpoint.php" class="btn btn-dark btn-lg chaffle" data-lang="ja-hiragana"><i class="fa fa-angle-right"></i> フォームへ</a>
         </div>
    </aside>
 

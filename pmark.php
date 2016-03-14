@@ -8,42 +8,38 @@
 </head>
 <body>
     <?php defnavbar(); ?>
-    <!-- Header -->
     <section id="breadcrumb_nav">
             <div class="row row-10">
-                <?php breadcrumbs(1,'ISMS','','','','',''); ?>
+                <?php breadcrumbs(1,'Pマーク','','','','',''); ?>
             </div>
     </section>
 
-
-    <section id="privacy_top" class="padding-top50">
+    <section id="pmark_top" class="padding-top50">
         <div class="container">
             <div class="row row-0 text-center">
                 <div class="col-lg-12">
-                    <h1 class="page-header">ISMS</h1>
+                    <h1 class="page-header">Ｐマーク</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row row-0 text-left">
                 <div class="row">
                     <div class="col-sm-12 font-type-1 text-center">
-                        <img src="./img/isms.png" class="img-responsive center-block" alt="ISMS">
+                        <img src="./img/p.gif" class="img-responsive center-block" alt="Ｐマーク">
                     </div>
 
                     <div class="col-sm-12 font-type-1 text-left">
-                        <p class="text-left">JIS Q 27001:2014(ISO/IEC 27001:2013)</p>
                         <ul>
-                            <li>認証番号：MSA-IS-97</li>
+                            <li>認定番号： 第１０８２３０３７(０４)号</li>
                             <li>事業者：株式会社竜巧社ネットウエア</li>
                             <li>所在地：東京都中央区京橋一丁目１４番９号</li>
-                            <li>対象組織：本社</li>
-                            <li>対象事業：システム運用保守監視、システム開発、ネットワーク・サーバ構築及び派遣に関する管理</li>
-                            <li>認証日：２０１２年９月２４日</li>
-                            <li>有効期限：２０１８年９月２３日</li>
+                            <li>初回認定年月日： 平成２０年９月１１日</li>
+                            <li>認定の有効期限： 平成２６年９月２９日～平成２８年９月２８日</li>
                         </ul>
                     </div>
 
