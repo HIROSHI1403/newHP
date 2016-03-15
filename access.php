@@ -59,7 +59,7 @@
                             <tr>
                                 <th nowrap>電話</th>
                                 <td><i class="fa fa-phone fa-fw"></i></td>
-                                <th><a class="btn btn-dark btn-block btn-xs" href="tel:0351590600">03-5159-0600／採用担当：尾身（おみ）</a></th>
+                                <th><a class="btn btn-dark btn-block btn-xs" href="tel:0351590600">03-5159-0600<br>採用担当：尾身（おみ）</a></th>
                             </tr>
                             <tr>
                                 <td nowrap>メール</td>

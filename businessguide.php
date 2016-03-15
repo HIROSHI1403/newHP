@@ -128,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-12 no-padding lib-item" data-category="view" id="b5">
+                <!-- <div class="col-md-12 no-padding lib-item" data-category="view" id="b5">
                     <div class="lib-panel">
                         <div class="row row-0 box-shadow">
                             <div class="col-sm-4">
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
             </div>

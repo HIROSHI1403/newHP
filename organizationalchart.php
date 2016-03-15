@@ -33,8 +33,8 @@
 
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <a href="./img/oc.jpg" target="_blank">
-                <img src="./img/oc.jpg" class="img-responsive" alt="組織図">
+            <a href="./img/oraganizationalchart.png" target="_blank">
+                <img src="./img/oraganizationalchart.png" class="img-responsive" alt="組織図">
             </a>
         </div>
     </section>
